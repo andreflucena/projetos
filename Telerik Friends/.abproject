@@ -1,0 +1,8 @@
+{
+  "ProjectName": "Telerik Friends",
+  "ProjectGuid": "24d751a0-36a2-4041-9b7b-5bc8439cad05",
+  "projectVersion": 1,
+  "ProjectTypeGuids": "{da2f9169-4696-40a5-919b-f73985228cac}",
+  "FrameworkVersion": "0.0.1",
+  "Framework": "MobileWebsite"
+}
