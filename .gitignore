@@ -1,3 +1,22 @@
+# Build
 */bin
 */obj
+bin/
+obj/
+dist/
+build/
+node_modules/
+__pycache__/
+.venv/
+
+# Telerik AppBuilder
 *.user-settings.xml
+
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Sistema
+.DS_Store
+Thumbs.db
