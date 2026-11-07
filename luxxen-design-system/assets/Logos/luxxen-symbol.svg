@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 256" role="img" aria-label="luxxen.ai">
+<defs><linearGradient id="lx-v" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"></stop><stop offset=".55" stop-color="#7c3aed"></stop><stop offset="1" stop-color="#6d28d9"></stop></linearGradient>
+<linearGradient id="lx-b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60a5fa"></stop><stop offset=".55" stop-color="#3b82f6"></stop><stop offset="1" stop-color="#2563eb"></stop></linearGradient></defs>
+<path fill="url(#lx-v)" d="M4.0 0.0H88.5L180.0 128.0L88.5 256.0H4.0L95.5 128.0Z"></path><path fill="url(#lx-b)" d="M144.0 0.0H228.5L320.0 128.0L228.5 256.0H144.0L235.5 128.0Z"></path>
+</svg>

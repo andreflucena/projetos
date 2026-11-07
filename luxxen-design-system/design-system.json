@@ -1,0 +1,248 @@
+{
+ "v": 3,
+ "assetGroups": {
+  "Logos": {
+   "files": {
+    "luxxen-logo-dark-bg.svg": {
+     "name": "luxxen-logo-dark-bg.svg",
+     "blob": "70cabae1d6766e7ddfde108dfa9ceace",
+     "size": 4425,
+     "type": "image/svg+xml"
+    },
+    "luxxen-logo-light-bg.svg": {
+     "name": "luxxen-logo-light-bg.svg",
+     "blob": "48b3ef5b2cd248793fdb920cb6e4f2a4",
+     "size": 4425,
+     "type": "image/svg+xml"
+    },
+    "luxxen-symbol.svg": {
+     "name": "luxxen-symbol.svg",
+     "blob": "bac69d08c9262c21f198cd5f4108f80e",
+     "size": 718,
+     "type": "image/svg+xml"
+    },
+    "luxxen-icon-dark.svg": {
+     "name": "luxxen-icon-dark.svg",
+     "blob": "ebdb076dadb6846d3ff2d3289d02280a",
+     "size": 838,
+     "type": "image/svg+xml"
+    },
+    "luxxen-icon-violet.svg": {
+     "name": "luxxen-icon-violet.svg",
+     "blob": "bc1bbe0de4b32b2ce9f39ec778e38522",
+     "size": 798,
+     "type": "image/svg+xml"
+    },
+    "luxxen-icon-graphite.svg": {
+     "name": "luxxen-icon-graphite.svg",
+     "blob": "0e71b54899b48f3e09ccc1784c3c229c",
+     "size": 832,
+     "type": "image/svg+xml"
+    },
+    "luxxen-icon-light.svg": {
+     "name": "luxxen-icon-light.svg",
+     "blob": "3098a4ba372219cdc2600353300f8c07",
+     "size": 838,
+     "type": "image/svg+xml"
+    },
+    "luxxen-brand-board-dark.jpg": {
+     "name": "luxxen-brand-board-dark.jpg",
+     "blob": "5af5fcf12aa8a1e33f276b1b905f843f",
+     "size": 412725,
+     "type": "image/jpeg"
+    },
+    "luxxen-brand-board-light.jpg": {
+     "name": "luxxen-brand-board-light.jpg",
+     "blob": "1421a912af45668a20cc0e5554b7f9b0",
+     "size": 416373,
+     "type": "image/jpeg"
+    }
+   },
+   "name": "Logos",
+   "order": [
+    "luxxen-logo-dark-bg.svg",
+    "luxxen-logo-light-bg.svg",
+    "luxxen-symbol.svg",
+    "luxxen-icon-dark.svg",
+    "luxxen-icon-violet.svg",
+    "luxxen-icon-graphite.svg",
+    "luxxen-icon-light.svg",
+    "luxxen-brand-board-dark.jpg",
+    "luxxen-brand-board-light.jpg"
+   ],
+   "tile": "l"
+  },
+  "Posts": {
+   "name": "Posts",
+   "tile": "l",
+   "order": [
+    "luxxen-post-geral-dark.png",
+    "luxxen-post-geral-light.png",
+    "luxxen-post-clinicas-dark.png",
+    "luxxen-post-clinicas-light.png",
+    "luxxen-post-advocacia-dark.png",
+    "luxxen-post-advocacia-light.png",
+    "luxxen-post-contabilidade-dark.png",
+    "luxxen-post-contabilidade-light.png",
+    "luxxen-post-ecommerce-dark.png",
+    "luxxen-post-ecommerce-light.png",
+    "luxxen-post-sobre-dark.png",
+    "luxxen-post-sobre-light.png",
+    "luxxen-post-chat-clinicas-dark.png",
+    "luxxen-post-chat-clinicas-light.png",
+    "luxxen-post-chat-advocacia-dark.png",
+    "luxxen-post-chat-advocacia-light.png",
+    "luxxen-post-chat-contabilidade-dark.png",
+    "luxxen-post-chat-contabilidade-light.png",
+    "luxxen-post-chat-ecommerce-dark.png",
+    "luxxen-post-chat-ecommerce-light.png"
+   ],
+   "files": {
+    "luxxen-post-advocacia-dark.png": {
+     "name": "luxxen-post-advocacia-dark.png",
+     "blob": "a65356dacc2c3645112cd6d29881981c",
+     "size": 136205,
+     "type": "image/png"
+    },
+    "luxxen-post-advocacia-light.png": {
+     "name": "luxxen-post-advocacia-light.png",
+     "blob": "6a9a40c11276103cd036ecb31a1ddbff",
+     "size": 440300,
+     "type": "image/png"
+    },
+    "luxxen-post-chat-advocacia-dark.png": {
+     "name": "luxxen-post-chat-advocacia-dark.png",
+     "blob": "ef7bade520b62308a61cc2d4f7baf846",
+     "size": 165467,
+     "type": "image/png"
+    },
+    "luxxen-post-chat-advocacia-light.png": {
+     "name": "luxxen-post-chat-advocacia-light.png",
+     "blob": "025ea7532cc9b7cae80307ad7a788e23",
+     "size": 475111,
+     "type": "image/png"
+    },
+    "luxxen-post-chat-clinicas-dark.png": {
+     "name": "luxxen-post-chat-clinicas-dark.png",
+     "blob": "5fd5177453cf65327309affcea9ec785",
+     "size": 160841,
+     "type": "image/png"
+    },
+    "luxxen-post-chat-clinicas-light.png": {
+     "name": "luxxen-post-chat-clinicas-light.png",
+     "blob": "a26fbd44183dd066904711b2222860a3",
+     "size": 470749,
+     "type": "image/png"
+    },
+    "luxxen-post-chat-contabilidade-dark.png": {
+     "name": "luxxen-post-chat-contabilidade-dark.png",
+     "blob": "0c10d2ae95704bc00926db46629e293f",
+     "size": 167011,
+     "type": "image/png"
+    },
+    "luxxen-post-chat-contabilidade-light.png": {
+     "name": "luxxen-post-chat-contabilidade-light.png",
+     "blob": "90824c7a56d84d3ff9e919b32411332e",
+     "size": 472603,
+     "type": "image/png"
+    },
+    "luxxen-post-chat-ecommerce-dark.png": {
+     "name": "luxxen-post-chat-ecommerce-dark.png",
+     "blob": "3628590634abe66a0a37556e2d2607e9",
+     "size": 164015,
+     "type": "image/png"
+    },
+    "luxxen-post-chat-ecommerce-light.png": {
+     "name": "luxxen-post-chat-ecommerce-light.png",
+     "blob": "e21d6d2b80c9f317353fa964ef1f5b19",
+     "size": 471618,
+     "type": "image/png"
+    },
+    "luxxen-post-clinicas-dark.png": {
+     "name": "luxxen-post-clinicas-dark.png",
+     "blob": "d7e1127bfe55fa34c9deaba0e303f399",
+     "size": 134414,
+     "type": "image/png"
+    },
+    "luxxen-post-clinicas-light.png": {
+     "name": "luxxen-post-clinicas-light.png",
+     "blob": "9e007b2b9ebc03e9899c9c7244f5fe4c",
+     "size": 439259,
+     "type": "image/png"
+    },
+    "luxxen-post-contabilidade-dark.png": {
+     "name": "luxxen-post-contabilidade-dark.png",
+     "blob": "a69222a4051d2c46708edb41bf264af7",
+     "size": 135903,
+     "type": "image/png"
+    },
+    "luxxen-post-contabilidade-light.png": {
+     "name": "luxxen-post-contabilidade-light.png",
+     "blob": "46114b12eeb03c550abd3be97559309c",
+     "size": 438897,
+     "type": "image/png"
+    },
+    "luxxen-post-ecommerce-dark.png": {
+     "name": "luxxen-post-ecommerce-dark.png",
+     "blob": "fbeaef27e069dc4396bae8d95ba3ac56",
+     "size": 146811,
+     "type": "image/png"
+    },
+    "luxxen-post-ecommerce-light.png": {
+     "name": "luxxen-post-ecommerce-light.png",
+     "blob": "db0255998174d49a3eb6783dafc82898",
+     "size": 447148,
+     "type": "image/png"
+    },
+    "luxxen-post-geral-dark.png": {
+     "name": "luxxen-post-geral-dark.png",
+     "blob": "a661e21ecd8bd4be4ec0b7616685af62",
+     "size": 140256,
+     "type": "image/png"
+    },
+    "luxxen-post-geral-light.png": {
+     "name": "luxxen-post-geral-light.png",
+     "blob": "45b4e5916b5093fdd65f1f81cecdf13e",
+     "size": 447767,
+     "type": "image/png"
+    },
+    "luxxen-post-sobre-dark.png": {
+     "name": "luxxen-post-sobre-dark.png",
+     "blob": "fc28baa67af6a614668505406e14a235",
+     "size": 126673,
+     "type": "image/png"
+    },
+    "luxxen-post-sobre-light.png": {
+     "name": "luxxen-post-sobre-light.png",
+     "blob": "6503b526658f49ccd30128700490e649",
+     "size": 459147,
+     "type": "image/png"
+    }
+   }
+  }
+ },
+ "blobs": {},
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-10-22T12:00:00Z"
+ },
+ "docs": {
+  "readme": "project/README.md",
+  "sections": []
+ },
+ "groups": [
+  "Logos",
+  "Posts"
+ ],
+ "lastChange": {
+  "by": "André",
+  "at": "2026-10-22T12:00:00Z",
+  "via": "Cowork",
+  "note": "Versão final: base violeta/azul com laranja só nos destaques; nova tagline, segmentos, posts e WhatsApp"
+ },
+ "layout": "files",
+ "libraries": [],
+ "namespace": "Luxxen",
+ "sections": {},
+ "title": "luxxen.ai — Violeta final"
+}
