@@ -1,0 +1,84 @@
+{
+  "gates": [
+    {
+      "nome": "movimento",
+      "exit": 1,
+      "detalhe": "rodar-gates r1: REPROVA (saída 1) em 157 s (gates/movimento-r1.txt)"
+    },
+    {
+      "nome": "responsivo",
+      "exit": 1,
+      "detalhe": "rodar-gates r1: REPROVA (saída 1) em 104 s (gates/responsivo-r1.txt)"
+    },
+    {
+      "nome": "oclusao",
+      "exit": 0,
+      "detalhe": "rodar-gates r1: PASSA em 15 s (gates/oclusao-r1.txt)"
+    },
+    {
+      "nome": "simetria",
+      "exit": 1,
+      "detalhe": "rodar-gates r1: REPROVA (saída 1) em 14 s (gates/simetria-r1.txt)"
+    },
+    {
+      "nome": "composicao",
+      "exit": 1,
+      "detalhe": "rodar-gates r1: REPROVA (saída 1) em 9,4 s (gates/composicao-r1.txt)"
+    },
+    {
+      "nome": "imagens",
+      "exit": 0,
+      "detalhe": "rodar-gates r1: PASSA em 7,6 s (gates/imagens-r1.txt)"
+    },
+    {
+      "nome": "texto",
+      "exit": 1,
+      "detalhe": "rodar-gates r1: REPROVA (saída 1) em 7,2 s (gates/texto-r1.txt)"
+    },
+    {
+      "nome": "ritmo",
+      "exit": 1,
+      "detalhe": "rodar-gates r1: REPROVA (saída 1) em 4,3 s (gates/ritmo-r1.txt)"
+    },
+    {
+      "nome": "sem-kicker",
+      "exit": 0,
+      "detalhe": "rodar-gates r1: PASSA em 2,5 s (gates/sem-kicker-r1.txt)"
+    },
+    {
+      "nome": "classes-mortas",
+      "exit": 0,
+      "detalhe": "rodar-gates r1: PASSA em 0,1 s (gates/classes-mortas-r1.txt)"
+    },
+    {
+      "nome": "verdade",
+      "exit": 1,
+      "detalhe": "rodar-gates r1: REPROVA (saída 1) em 0,1 s (gates/verdade-r1.txt)"
+    },
+    {
+      "nome": "publicacao",
+      "exit": 0,
+      "detalhe": "rodar-gates r1: PASSA em 0,1 s (gates/publicacao-r1.txt)"
+    },
+    {
+      "nome": "rastreamento",
+      "exit": 0,
+      "detalhe": "rodar-gates r1: PASSA em 0,1 s (gates/rastreamento-r1.txt)"
+    },
+    {
+      "nome": "seo",
+      "exit": 0,
+      "detalhe": "rodar-gates r1: PASSA em 0,1 s (gates/seo-r1.txt)"
+    },
+    {
+      "nome": "plano",
+      "exit": 0,
+      "detalhe": "rodar-gates r1: PASSA em 0,1 s (gates/plano-r1.txt)"
+    },
+    {
+      "nome": "referencias",
+      "exit": 0,
+      "detalhe": "rodar-gates r1: PASSA em 0,3 s (gates/referencias-r1.txt)"
+    }
+  ]
+}

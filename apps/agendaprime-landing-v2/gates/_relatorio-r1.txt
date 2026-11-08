@@ -1,0 +1,279 @@
+
+===== RELATÓRIO DA RODADA 1 =====
+REPROVA  movimento         157 s   gates/movimento-r1.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+REPROVA  responsivo        104 s   gates/responsivo-r1.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    oclusao            15 s   gates/oclusao-r1.txt   (rodou: sem laudo PASSA guardado)
+REPROVA  simetria           14 s   gates/simetria-r1.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+REPROVA  composicao        9,4 s   gates/composicao-r1.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    imagens           7,6 s   gates/imagens-r1.txt   (rodou: sem laudo PASSA guardado)
+REPROVA  texto             7,2 s   gates/texto-r1.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+REPROVA  ritmo             4,3 s   gates/ritmo-r1.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    sem-kicker        2,5 s   gates/sem-kicker-r1.txt   (rodou: sem laudo PASSA guardado)
+PASSA    classes-mortas    0,1 s   gates/classes-mortas-r1.txt   (rodou: sem laudo PASSA guardado)
+REPROVA  verdade           0,1 s   gates/verdade-r1.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    publicacao        0,1 s   gates/publicacao-r1.txt   (rodou: sem laudo PASSA guardado)
+PASSA    rastreamento      0,1 s   gates/rastreamento-r1.txt   (rodou: sem laudo PASSA guardado)
+PASSA    seo               0,1 s   gates/seo-r1.txt   (rodou: sem laudo PASSA guardado)
+PASSA    plano             0,1 s   gates/plano-r1.txt   (rodou: sem laudo PASSA guardado)
+PASSA    referencias       0,3 s   gates/referencias-r1.txt   (rodou: sem laudo PASSA guardado)
+
+----- FALHAS (texto inteiro de cada gate que reprovou) -----
+
+### movimento (saída 1, 157 s)
+
+GATE DE MOVIMENTO NA VISITA  http://127.0.0.1:45717/
+visita: 8 s parada no topo, depois rolagem em passos de 40% da tela
+========================================================================================
+conteúdo sem o script (6 s de espera por prova):
+desktop comum (1440x900)       ok  script bloqueado: 0 elemento(s) com texto ou imagem invisível(is)
+desktop comum (1440x900)       ok  script que demora 7 s: 0 elemento(s) com texto ou imagem invisível(is)
+iphone padrao (390x844)        ok  script bloqueado: 0 elemento(s) com texto ou imagem invisível(is)
+iphone padrao (390x844)        ok  script que demora 7 s: 0 elemento(s) com texto ou imagem invisível(is)
+desktop comum (1440x900)       FALHA (1)  9/10 seções animam ao chegar, 1 com animação fora da tela
+desktop comum (1440x900)       ok  fim da visita: 0 elemento(s) com texto ou imagem invisível(is) na tela ou no fim
+iphone padrao (390x844)        FALHA (1)  8/9 seções animam ao chegar, 1 com animação fora da tela
+iphone padrao (390x844)        ok  fim da visita: 0 elemento(s) com texto ou imagem invisível(is) na tela ou no fim
+desktop comum (1440x900)       ok  parada no topo por 4 s: 0 elemento(s) da primeira tela invisível(is)
+desktop comum (1440x900)       ok  salto até o fim: 0 elemento(s) acima da tela invisível(is)
+iphone padrao (390x844)        ok  parada no topo por 4 s: 0 elemento(s) da primeira tela invisível(is)
+iphone padrao (390x844)        ok  salto até o fim: 0 elemento(s) acima da tela invisível(is)
+por item: rolagem contínua a 300 px/s
+desktop comum (1440x900)       FALHA  1 item(ns) chegam parados
+iphone padrao (390x844)        FALHA  2 item(ns) chegam parados
+menor suportado (320x568)      FALHA  1 item(ns) chegam parados
+movimento reduzido: scroll-behavior auto
+movimento reduzido iphone padrao (390x844): 0 animações em curso
+movimento reduzido desktop comum (1440x900): 0 animações em curso
+========================================================================================
+  FALHA: desktop comum (1440x900): seção "Quando a confirmação sai?": 1 animação(ões) rodaram com a seção fora da tela (aos 0.1 s, scrollY 0; a primeira: animationstart camada em div.r-gr): a visita chega nela já revelada e parada
+  FALHA: iphone padrao (390x844): seção "Quando a confirmação sai?": 1 animação(ões) rodaram com a seção fora da tela (aos 0.1 s, scrollY 0; a primeira: animationstart camada em div.r-gr): a visita chega nela já revelada e parada
+  FALHA: desktop comum (1440x900): 1 item(ns) chegam parados na tela a 300 px/s (terminaram de animar antes de entrar): div.r-gr "Confirmação na quarta, às 10h" 9333 ms antes; revele cada item quando ele entra, não o grupo
+  FALHA: iphone padrao (390x844): 2 item(ns) chegam parados na tela a 300 px/s (terminaram de animar antes de entrar): i 21999 ms antes, div.r-gr "Confirmação na quarta, às 10h" 10250 ms antes; revele cada item quando ele entra, não o grupo
+  FALHA: menor suportado (320x568): 1 item(ns) chegam parados na tela a 300 px/s (terminaram de animar antes de entrar): div.r-gr "Confirmação na quarta, às 10h" 12150 ms antes; revele cada item quando ele entra, não o grupo
+
+  REPROVA: 5 problema(s) de movimento na visita.
+  Revele só o que entra na tela (IntersectionObserver sem temporizador que revela tudo).
+  Conteúdo continua visível sem JavaScript e com movimento reduzido.
+Conserto: revele cada seção só quando ela entra na tela (IntersectionObserver), sem setTimeout que revela tudo e sem animation-delay (use quadro-chave parado no começo); observe cada item (o filho) e não o grupo, para ele entrar animando quando aparece a 300 px/s; ponha a rede de segurança da receita-base no <head>: a classe js posta por script em linha e retirada por temporizador de 5 s se o script principal não...
+
+### responsivo (saída 1, 104 s)
+
+GATE DE RESPONSIVIDADE  http://127.0.0.1:35011/
+========================================================================================
+tela              dim         overflow  CTA     toque   texto   imagem
+----------------------------------------------------------------------------------------
+desktop grande    1920x1080   ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1920px, innerWidth 1920px
+macbook 16        1728x1117   ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1728px, innerWidth 1728px
+macbook 14        1512x982    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1512px, innerWidth 1512px
+desktop comum     1440x900    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1440px, innerWidth 1440px
+notebook comum    1366x768    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1366px, innerWidth 1366px
+laptop pequeno    1280x800    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1280px, innerWidth 1280px
+tablet paisagem   1024x768    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1024px, innerWidth 1024px
+tablet retrato    768x1024    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 768px, innerWidth 768px
+iphone pro max    430x932     FALHA     ok      ok      ok      ok  
+  medido: scrollWidth da pagina 431px, innerWidth 431px, 2 carrosseis com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 64px (6.9%), foto do herói sem foto no herói, até 2 botão(ões) por tela, 0 encostado(s) na barra
+iphone padrao     390x844     FALHA     ok      ok      ok      ok  
+  medido: scrollWidth da pagina 392px, innerWidth 392px, 2 carrosseis com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 64px (7.6%), foto do herói sem foto no herói, até 2 botão(ões) por tela, 0 encostado(s) na barra
+android comum     360x740     FALHA     ok      ok      ok      ok  
+  medido: scrollWidth da pagina 362px, innerWidth 362px, 2 carrosseis com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 64px (8.6%), foto do herói sem foto no herói, até 2 botão(ões) por tela, 1 encostado(s) na barra
+menor suportado   320x568     FALHA     ok      ok      ok      ok  
+  medido: scrollWidth da pagina 322px, innerWidth 322px, 2 carrosseis com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 64px (11.3%), foto do herói sem foto no herói, até 2 botão(ões) por tela, 1 encostado(s) na barra
+----------------------------------------------------------------------------------------
+primeira tela visível no celular (área da página com as barras do navegador; folga mínima no pé 8 px; foto 35% da área, piso 20% quando o texto ocupa o resto)
+  primeira tela visível 390x664 (iphone 12 a 14 com as barras do Safari; tela 390x844): manchete 128 a 243, apoio 257 a 326, botão 352 a 404 "Falar com a luxxen.ai »", folga 264 px, sem foto no herói  ok
+  primeira tela visível 360x616 (android 360 com as barras do Chrome; tela 360x740): manchete 128 a 243, apoio 257 a 326, botão 352 a 404 "Falar com a luxxen.ai »", folga 216 px, sem foto no herói  ok
+  primeira tela visível 375x553 (iphone SE com as barras do Safari (estimativa); tela 375x667): manchete 128 a 243, apoio 257 a 326, botão 352 a 404 "Falar com a luxxen.ai »", folga 152 px, sem foto no herói  ok
+========================================================================================
+  FALHA: iphone pro max (430x932): overflow horizontal de 1px
+  FALHA: iphone pro max (430x932): 2 botões de ação na mesma tela em scrollY 930 (Agenda | Falar com a luxxen.ai
+): no máximo 1 por tela; a barra fixa some quando há botão da página à vista
+  FALHA: iphone padrao (390x844): overflow horizontal de 2px
+  FALHA: iphone padrao (390x844): 2 botões de ação na mesma tela em scrollY 846 (Agenda | Falar com a luxxen.ai
+): no máximo 1 por tela; a barra fixa some quando há botão da página à vista
+  FALHA: android comum (360x740): overflow horizontal de 2px
+  FALHA: android comum (360x740): 2 botões de ação na mesma tela em scrollY 861 (Agenda | Falar com a luxxen.ai
+): no máximo 1 por tela; a barra fixa some quando há botão da página à vista
+  FALHA: android comum (360x740): botão coberto ou encostado na barra fixa (menos de 8 px): "Agenda" a -60 px da barra fixa (scrollY 861)
+  FALHA: menor suportado (320x568): overflow horizontal de 2px
+  FALHA: menor suportado (320x568): 2 botões de ação na mesma tela em scrollY 1140 (Agenda | Falar com a luxxen.ai
+): no máximo 1 por tela; a barra fixa some quando há botão da página à vista
+  FALHA: menor suportado (320x568): botão coberto ou encostado na barra fixa (menos de 8 px): "Agenda" a -18 px da barra fixa (scrollY 1140)
+
+  REPROVA: 10 problema(s) de responsividade em 12 telas e 3 primeiras telas visíveis.
+  Duas lembrancas que custaram caro aqui:
+   - ALTURA conta tanto quanto largura: janela baixa com titulo grande empurra o
+     CTA pra fora da dobra, e teste de largura sozinho nunca pega isso.
+   - um botao tem DOIS contrastes: o texto dentro dele E ele contra o fundo.
+     Consertar so o primeiro ja produziu botao verde escuro em secao verde escura.
+Conserto: ache o elemento mais largo que a tela (largura fixa, imagem sem max-width) e prenda-o a 100% da largura; deixe 1 botão de ação por tela no celular: a barra fixa some quando há botão da página à vista; afaste o botão da barra fixa (mais de 8 px) ou ponha padding-bottom na seção
+
+### simetria (saída 1, 14 s)
+
+GATE DE SIMETRIA  http://127.0.0.1:46411/
+================================================================================
+desktop comum (1440x900)         FALHA (1) (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+notebook comum (1366x768)        FALHA (1) (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet paisagem (1024x768)       FALHA (1) (2 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet retrato (768x1024)        ok (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 0
+================================================================================
+  desktop comum (1440x900): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 120, 768, 120, 768, 120) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 83, 731, 83, 731, 83) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 41, 560, 41, 560, 41) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "É para clínicas que querem C" (base da caixa div.q-sim.visivel, termina em y 5429) e "Ainda não é para quem precis" (base da caixa div.q-nao.visivel, termina em y 5529) terminam com 100 px de diferença [a lista maior e a menor lado a lado, pedido no plano]
+  tablet retrato (768x1024): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 31, 432, 31, 432, 31) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  FALHA: desktop comum (1440x900): colunas desbalanceadas: "Agenda CRM Confirmações Indi" (base da caixa li, termina em y 2136) e "Agenda da semana Seg Ter Qua" (último texto p.exemplo, termina em y 2289) terminam com 153 px de diferença
+  FALHA: notebook comum (1366x768): colunas desbalanceadas: "Agenda CRM Confirmações Indi" (base da caixa li, termina em y 2136) e "Agenda da semana Seg Ter Qua" (último texto p.exemplo, termina em y 2289) terminam com 153 px de diferença
+  FALHA: tablet paisagem (1024x768): colunas desbalanceadas: "Agenda CRM Confirmações Indi" (base da caixa li, termina em y 2312) e "Agenda da semana Seg Ter Qua" (último texto p.exemplo, termina em y 2413) terminam com 101 px de diferença
+
+  REPROVA: 3 problema(s) de simetria.
+  Itens paralelos: grade de caixas iguais (mesmo topo, mesma altura, entrada escalonada).
+  Passos e perguntas: título em largura total em cima, itens em grade embaixo.
+  Colunas vizinhas terminam juntas (até 80 px) ou a seção se reestrutura.
+  Cards vizinhos: mesma estrutura por dentro (mídia do mesmo tamanho, título na mesma altura).
+Conserto: prenda o último bloco da coluna curta ao rodapé (margin-top: auto com o grid esticado) ou estique o bloco mais curto até a mesma base; se a assimetria é pedida no plano, declare data-assimetrico="motivo"; alinhe os itens paralelos na mesma linha, com a mesma altura de caixa (grid com itens esticados)
+
+### composicao (saída 1, 9,4 s)
+
+GATE DE COMPOSIÇÃO  http://127.0.0.1:43075/
+========================================================================================
+Seções com h2, na ordem da página (desktop 1440):
+   1. topo                                       (sem h2)
+   2. Onde as oportunidades se perdem.           título à esquerda + grade de caixas
+   3. Quatro telas para a recepção.              título à esquerda + colunas sem caixa
+   4. Do primeiro contato ao comparecimento.     título à esquerda + lista
+   5. Quando a confirmação sai?                  título ao lado do conteúdo + colunas sem caixa
+   6. Para cada papel, uma rotina.               título à esquerda + lista
+   7. Sem número inventado.                      título à esquerda + grade de caixas
+   8. Para quem o AgendaPrime™ faz sentido.      título à esquerda + grade de caixas
+   9. Perguntas frequentes.                      título centralizado + lista
+  10. Fale com a luxxen.ai.                      título ao lado do conteúdo + texto
+Motivo mais repetido: "traçado sem data-desenho de 14 px" 1 vez(es) (máximo 6); 2 desenho(s) fora de controle, de todo tamanho
+Desenhos SVG medidos: 1; menor contraste de traço fino ou destaque: nenhum medido
+desktop 1440: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: nenhuma
+celular 390: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: nenhuma
+========================================================================================
+  FALHA: desktop 1440: nenhuma figura humana na primeira tela para um público de pessoas ("Gestor ou proprietário de clínica de odontologia estética premium; no dia a dia, administrador e recepção (PRD 1.4)"): foto real com autorização ou ilustração própria com data-figura="pessoa" (0 figura(s) na página inteira)
+  FALHA: celular 390: nenhuma figura humana na primeira tela para um público de pessoas ("Gestor ou proprietário de clínica de odontologia estética premium; no dia a dia, administrador e recepção (PRD 1.4)"): foto real com autorização ou ilustração própria com data-figura="pessoa" (0 figura(s) na página inteira)
+
+  REPROVA: 2 problema(s) de composição.
+Conserto: termine a linha do tempo no centro do último marco; ponha uma pessoa na primeira tela: foto real com autorização ou ilustração própria com data-figura="pessoa"; suba o contraste do destaque ou do traço fino para pelo menos 3:1 contra o fundo
+
+### texto (saída 1, 7,2 s)
+
+GATE DE TEXTO NA TELA  http://127.0.0.1:42513/
+================================================================================
+desktop comum (1440x900)         ok
+notebook comum (1366x768)        ok
+tablet retrato (768x1024)        ok
+iphone pro max (430x932)         ok
+iphone padrao (390x844)          ok
+android comum (360x740)          FALHA (3)
+menor suportado (320x568)        FALHA (3)
+================================================================================
+  medido em 1440x900: filetes de enfeite: 0 em 7,83 telas de 900 px (0,00 por tela; máximo 1,20); de tabela (dl, table), fora da conta: 0
+  medido em 1440x900: enfeite de título: nenhum h2 com enfeite; máximo 3
+  FALHA: android comum (360x740): viúva: h3 "Contato sem resposta." termina com "resposta." sozinha (2 linhas)
+  FALHA: android comum (360x740): viúva: h3 "Acompanhamento solto." termina com "solto." sozinha (2 linhas)
+  FALHA: android comum (360x740): viúva: h3 "Agenda desorganizada." termina com "desorganizada." sozinha (2 linhas)
+  FALHA: menor suportado (320x568): viúva: h3 "Contato sem resposta." termina com "resposta." sozinha (2 linhas)
+  FALHA: menor suportado (320x568): viúva: h3 "Acompanhamento solto." termina com "solto." sozinha (2 linhas)
+  FALHA: menor suportado (320x568): viúva: h3 "Agenda desorganizada." termina com "desorganizada." sozinha (2 linhas)
+
+  REPROVA: 6 problema(s) de texto na tela.
+  Viúva: text-wrap: balance no título ou ajuste da copy. Minúscula: primeira letra maiúscula
+  em todo item. Itálico colorido: no máximo um trecho na página. Filete: separar por cor e espaço.
+  Enfeite de título: tirar o traço repetido; a hierarquia vem de tamanho, peso e espaço.
+Conserto: leia as linhas FALHA acima, cada uma cita o texto e a largura de tela; reescreva ou ajuste a largura para não deixar palavra sozinha na última linha
+
+### ritmo (saída 1, 4,3 s)
+
+GATE DE RITMO  http://127.0.0.1:44229/
+========================================================================================
+Esqueleto de cada seção, na ordem da página (desktop 1440):
+   1. Agenda, CRM e confirmações no mesmo flux   título centralizado + cartões
+      como mediu o título: text-align center; 1ª linha de 477 a 963 px, centro 720 px (seção: centro 720 px)
+   2. Onde as oportunidades se perdem.           título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 789 px, começa a 120 px da borda da seção
+   3. Quatro telas para a recepção.              título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 680 px, começa a 120 px da borda da seção
+   4. Do primeiro contato ao comparecimento.     título à esquerda + lista
+      como mediu o título: text-align start; 1ª linha de 120 a 905 px, começa a 120 px da borda da seção
+   5. Quando a confirmação sai?                  título ao lado do conteúdo + cartões
+      como mediu o título: há conteúdo ao lado do título (a partir de 688 px)
+   6. Para cada papel, uma rotina.               título à esquerda + assimétrico
+      como mediu o título: text-align start; 1ª linha de 120 a 654 px, começa a 120 px da borda da seção
+   7. Sem número inventado.                      título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 570 px, começa a 120 px da borda da seção
+   8. Para quem o AgendaPrime™ faz sentido.      título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 886 px, começa a 120 px da borda da seção
+   9. Perguntas frequentes.                      título centralizado + lista
+      como mediu o título: text-align center; 1ª linha de 508 a 932 px, centro 720 px (seção: centro 720 px)
+  10. Fale com a luxxen.ai.                      título ao lado do conteúdo + texto
+      como mediu o título: há conteúdo ao lado do título (a partir de 688 px)
+medido: 10 seções; "título centralizado + cartões" em 1 (máximo 1); vizinhas iguais: 2
+========================================================================================
+  FALHA: seções vizinhas com o mesmo esqueleto ("título à esquerda + cartões"): "Onde as oportunidades se perdem." e "Quatro telas para a recepção."; cada seção escolhe um esqueleto que a anterior não usou
+  FALHA: seções vizinhas com o mesmo esqueleto ("título à esquerda + cartões"): "Sem número inventado." e "Para quem o AgendaPrime™ faz sentido."; cada seção escolhe um esqueleto que a anterior não usou
+
+  REPROVA: 2 problema(s) de ritmo.
+Conserto: dê a uma das duas seções vizinhas citadas outra estrutura (posição do título e tipo de corpo diferentes) e mantenha no máximo 1 título centralizado com cartões
+
+### verdade (saída 1, 0,1 s)
+
+GATE DE VERDADE (frase da página -> linha do briefing)  /home/user/projetos/apps/agendaprime-landing-v2
+============================================================================
+  AVISO: 41 linha(s) da sustentacao.md não estão na tabela da seção d do PLANO (copy final, FAQ e rótulos entram na sustentacao.md; atualize o PLANO se a copy mudou), ex.: "O AgendaPrime™ organiza as avaliações da sua clínica de odontologia estética, do primeiro contato ao comparecimento."
+  AVISO: 1 frase(s) da tabela do PLANO não estão na sustentacao.md (a copy mudou depois do plano?), ex.: "Sem número inventado."
+  FALHA: promessa sem linha de sustentação: "A confirmação é programada para as 10h do dia anterior, no fuso da clínica."
+  FALHA: promessa sem linha de sustentação: "09h10h11h14h15h16h17h"
+  FALHA: promessa sem linha de sustentação: "Avaliação marcada depois das 10h da véspera"
+  FALHA: promessa sem linha de sustentação: "A confirmação sai às 10h do dia anterior, no fuso da clínica."
+  FALHA: promessa sem linha de sustentação: "Regra de exemplo da V1."
+  FALHA: promessa sem linha de sustentação: "Etapa 1 de 3"
+  FALHA: title: "AgendaPrime™: agenda, CRM e confirmações para clínicas" sem linha de sustentação na tabela (a prévia do link também promete)
+  FALHA: og:title: "AgendaPrime™: agenda, CRM e confirmações para clínicas" sem linha de sustentação na tabela (a prévia do link também promete)
+
+  Linhas prontas pra colar em evidencias/sustentacao.md (troque o segundo campo pela linha do
+  briefing entre aspas; se o briefing não tem a linha, corte a frase da página ou peça o fato):
+
+  [seção: Quando a confirmação sai?]
+  | "A confirmação é programada para as 10h do dia anterior, no fuso da clínica." | <linha do briefing entre aspas> |
+  | "09h10h11h14h15h16h17h" | <linha do briefing entre aspas> |
+  | "Avaliação marcada depois das 10h da véspera" | <linha do briefing entre aspas> |
+  | "A confirmação sai às 10h do dia anterior, no fuso da clínica." | <linha do briefing entre aspas> |
+  | "Regra de exemplo da V1." | <linha do briefing entre aspas> |
+
+  [seção: Fale com a luxxen.ai.]
+  | "Etapa 1 de 3" | <linha do briefing entre aspas> |
+
+  [seção: meta da página]
+  | "title: AgendaPrime™: agenda, CRM e confirmações para clínicas" | <linha do briefing entre aspas> |
+  | "og:title: AgendaPrime™: agenda, CRM e confirmações para clínicas" | <linha do briefing entre aspas> |
+
+  REPROVA: 8 frase(s) sem sustentação ou afirmando pendência. Corrija a copy
+  (e a meta description) ou peça o fato à cliente; nunca a tabela para caber na página.
+Conserto: ligue a promessa citada a uma linha do briefing em evidencias/sustentacao.md, ou tire a promessa da página
+
+Total: 162 s de relógio (soma dos gates: 321 s, 16 gate(s), teto 2).
+RESULTADO: REPROVA em 7 de 16: movimento, responsivo, simetria, composicao, texto, ritmo, verdade.
+Corrija TUDO o que está acima e repita só esses:
+  node "/root/.claude/skills/construtor-paginas/scripts/rodar-gates.mjs" --projeto "/home/user/projetos/apps/agendaprime-landing-v2" --reprovados
+Quando tudo passar, faça uma rodada completa (sem --so e sem --reprovados): ela registra sozinha o exit real de cada gate na wave.
+Wave: 16 gate(s) registrado(s) com o exit real, sem digitar (wave.py gates-lote, gates/_wave-r1.json).
+Este comando não aprova nada: grava o exit real que cada gate devolveu, e a decisão de entregar continua sendo do wave.py checar e rodada.

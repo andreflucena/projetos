@@ -1,0 +1,22 @@
+@import url('../../marca/tokens.css');
+@import url('../../marca/components/bundle.css');
+@font-face{font-family:'Plus Jakarta Sans';font-style:normal;font-weight:400 800;font-display:swap;src:url('../../fonts/plus-jakarta-sans-variavel.woff2') format('woff2')}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--font-sans);background:var(--surface);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,p{margin:0}
+h1,h2{text-wrap:balance}
+p{text-wrap:pretty}
+a{color:inherit}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:var(--space-6);padding:var(--space-6) var(--space-12)}
+.nav img{height:34px;width:auto;display:block}
+.nav-links{display:flex;gap:var(--space-8);font-size:14px;font-weight:500;color:var(--ink-muted)}
+.nav-links a{text-decoration:none}
+.hl-o{color:var(--accent-orange)}
+.hl-v{color:var(--accent-violet)}
+.hl-b{color:var(--accent-blue)}
+.grad{background:linear-gradient(90deg,var(--violet),var(--electric-blue));-webkit-background-clip:text;background-clip:text;color:transparent}
+.pill{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 12px;border-radius:var(--radius-pill);font-size:12px;font-weight:600;border:1px solid var(--border-strong);color:var(--ink)}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--accent-blue);display:block}
+.pill.ok i{background:var(--accent-violet)}
+@media (max-width:760px){.nav{padding:var(--space-4)}.nav-links{display:none}.nav img{height:26px}}

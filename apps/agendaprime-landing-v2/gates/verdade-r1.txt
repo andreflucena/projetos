@@ -1,0 +1,34 @@
+
+GATE DE VERDADE (frase da página -> linha do briefing)  /home/user/projetos/apps/agendaprime-landing-v2
+============================================================================
+  AVISO: 41 linha(s) da sustentacao.md não estão na tabela da seção d do PLANO (copy final, FAQ e rótulos entram na sustentacao.md; atualize o PLANO se a copy mudou), ex.: "O AgendaPrime™ organiza as avaliações da sua clínica de odontologia estética, do primeiro contato ao comparecimento."
+  AVISO: 1 frase(s) da tabela do PLANO não estão na sustentacao.md (a copy mudou depois do plano?), ex.: "Sem número inventado."
+  FALHA: promessa sem linha de sustentação: "A confirmação é programada para as 10h do dia anterior, no fuso da clínica."
+  FALHA: promessa sem linha de sustentação: "09h10h11h14h15h16h17h"
+  FALHA: promessa sem linha de sustentação: "Avaliação marcada depois das 10h da véspera"
+  FALHA: promessa sem linha de sustentação: "A confirmação sai às 10h do dia anterior, no fuso da clínica."
+  FALHA: promessa sem linha de sustentação: "Regra de exemplo da V1."
+  FALHA: promessa sem linha de sustentação: "Etapa 1 de 3"
+  FALHA: title: "AgendaPrime™: agenda, CRM e confirmações para clínicas" sem linha de sustentação na tabela (a prévia do link também promete)
+  FALHA: og:title: "AgendaPrime™: agenda, CRM e confirmações para clínicas" sem linha de sustentação na tabela (a prévia do link também promete)
+
+  Linhas prontas pra colar em evidencias/sustentacao.md (troque o segundo campo pela linha do
+  briefing entre aspas; se o briefing não tem a linha, corte a frase da página ou peça o fato):
+
+  [seção: Quando a confirmação sai?]
+  | "A confirmação é programada para as 10h do dia anterior, no fuso da clínica." | <linha do briefing entre aspas> |
+  | "09h10h11h14h15h16h17h" | <linha do briefing entre aspas> |
+  | "Avaliação marcada depois das 10h da véspera" | <linha do briefing entre aspas> |
+  | "A confirmação sai às 10h do dia anterior, no fuso da clínica." | <linha do briefing entre aspas> |
+  | "Regra de exemplo da V1." | <linha do briefing entre aspas> |
+
+  [seção: Fale com a luxxen.ai.]
+  | "Etapa 1 de 3" | <linha do briefing entre aspas> |
+
+  [seção: meta da página]
+  | "title: AgendaPrime™: agenda, CRM e confirmações para clínicas" | <linha do briefing entre aspas> |
+  | "og:title: AgendaPrime™: agenda, CRM e confirmações para clínicas" | <linha do briefing entre aspas> |
+
+  REPROVA: 8 frase(s) sem sustentação ou afirmando pendência. Corrija a copy
+  (e a meta description) ou peça o fato à cliente; nunca a tabela para caber na página.
+

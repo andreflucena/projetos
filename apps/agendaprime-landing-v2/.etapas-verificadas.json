@@ -1,0 +1,45 @@
+{
+  "0": {
+    "hashes": {
+      "evidencias/briefing.md": "741dc449dd8de039f7c57322a9c2c96281b9ed8e9bdc341b46367086321c7d20",
+      "evidencias/etapa-0.json": "77a50541bf8c18e29637e18cec1d027c4de81a22c8348d89bd8b496557e77a81"
+    },
+    "revalidada": {
+      "motivo": "briefing recebeu o horário da clínica demo e as três etapas do formulário",
+      "arquivos": [
+        "evidencias/briefing.md"
+      ],
+      "quando": "2026-11-08T15:11:47"
+    }
+  },
+  "1": {
+    "hashes": {
+      "referencias/referencias.json": "438e75edf67de9d27b7a43be0a411e09501af8a013809bde72d0625558790dc5",
+      "referencias/sintese.md": "6dbd674ba1bba915e9c83e38b94c35e8bcdb0926fa78ee9816dea2cb707b2662",
+      "evidencias/etapa-1.json": "9c823531923f0034c765ec2195b517b94187270a61c06720618febc213ccbc6b"
+    }
+  },
+  "2": {
+    "hashes": {
+      "plano-visual.md": "941512259e969fd3a2a07558c80ba7e1f742764ce0a16e845415d2d2d4fcb71e",
+      "PLANO.md": "85e92e23818b4049a085aa907f61f35945b65ed91c85684ee36d161ff29aa8c1",
+      "evidencias/etapa-2.json": "a3beccf65cb8e3fefa75df61529a182d18704b7bb61908a0c35ad2f760029d22"
+    }
+  },
+  "3": {
+    "hashes": {
+      "evidencias/copy.md": "cc315750fe1f29790520fae867f154f33e81b682a7b881dc61793bfa7d8bd075",
+      "evidencias/sustentacao.md": "b27a8deb7114fc23da63045f629c056900073b4c1872a3295216d1b4d6a76107",
+      "evidencias/etapa-3.json": "eb23c83f2748133e193719133173d388c382ed3012172cfe5bce5f222954e2b2"
+    }
+  },
+  "4": {
+    "hashes": {
+      "index.html": "42902044960825f71be49e0b3d9ebbdfb4f9ccb017ccd8cffb637a033e3decc7",
+      "pagina.css": "e443fa91c64f59e0b831072e221cbda0ef66e2dcff740807d4c680dfa861e046",
+      "styles.css": "929159fa3acf49f2890eb9af1eb4dbc3345cbc015df69e3b9149c543aca2090a",
+      "app.js": "a23a44c7b15220d898f56e0f0ea49066097a3a2e54b9ded352905a48ff7466ec",
+      "evidencias/etapa-4.json": "9117f38b31772795ba1f930902d3324ac9b99f650b87d9c8cc7a24f8d65778c2"
+    }
+  }
+}

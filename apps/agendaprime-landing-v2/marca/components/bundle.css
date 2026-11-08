@@ -1,0 +1,46 @@
+/* luxxen.ai — componentes em CSS puro. Requer tokens.css e Plus Jakarta Sans. */
+.lx-btn{display:inline-flex;align-items:center;gap:var(--space-2);height:44px;padding:0 var(--space-6);border-radius:var(--radius-pill);border:1px solid transparent;font-family:var(--font-sans);font-size:14px;line-height:20px;font-weight:600;cursor:pointer;text-decoration:none;transition:background-color .15s ease,box-shadow .15s ease,border-color .15s ease;white-space:nowrap}
+.lx-btn:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.lx-btn svg{width:16px;height:16px;flex:none}
+.lx-btn-primary{background:var(--primary);color:var(--on-primary)}
+.lx-btn-primary:hover{background:var(--primary-hover);box-shadow:var(--glow-violet)}
+.lx-btn-secondary{background:transparent;color:var(--ink);border-color:var(--border-strong)}
+.lx-btn-secondary:hover{border-color:var(--ink)}
+.lx-btn-ghost{background:transparent;color:var(--accent-blue);padding:0 var(--space-3)}
+.lx-btn-ghost:hover{color:var(--ink)}
+.lx-btn-sm{height:36px;padding:0 var(--space-4);font-size:13px}
+.lx-btn[disabled]{opacity:.45;cursor:not-allowed;box-shadow:none}
+
+
+.lx-panel{background:var(--surface-raised);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--space-6);box-shadow:var(--card);color:var(--ink);font-family:var(--font-sans)}
+
+.lx-hl-violet{color:var(--accent-violet);font-weight:700}
+.lx-hl-blue{color:var(--accent-blue);font-weight:700}
+
+.lx-pillar{display:flex;flex-direction:column;align-items:center;text-align:center;gap:var(--space-2);padding:var(--space-6) var(--space-4);background:var(--surface-raised);border:1px solid var(--border);border-radius:var(--radius-md);font-family:var(--font-sans)}
+.lx-pillar-icon{width:32px;height:32px;color:var(--accent-violet);margin-bottom:var(--space-2)}
+.lx-pillar-icon svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.lx-pillar-title{margin:0;font-size:16px;line-height:22px;font-weight:700;color:var(--ink)}
+.lx-pillar-text{margin:0;font-size:13px;line-height:18px;font-weight:500;color:var(--ink-muted)}
+
+.lx-hl-orange{color:var(--accent-orange);font-weight:700}
+.lx-hl-amber{color:var(--accent-amber);font-weight:700}
+
+.lx-step{display:inline-flex;align-items:center;gap:var(--space-2);font-family:var(--font-sans);font-size:14px;line-height:20px;font-weight:600;color:var(--ink)}
+.lx-step-hot{background:var(--primary);color:var(--on-primary);padding:var(--space-2) var(--space-4);border-radius:var(--radius-pill)}
+.lx-step-sep{color:var(--accent-orange);font-weight:800}
+
+.lx-metric{display:flex;flex-direction:column;gap:var(--space-2);padding:var(--space-6);background:var(--surface-raised);border:1px solid var(--border);border-radius:var(--radius-md);font-family:var(--font-sans)}
+.lx-metric-value{margin:0;font-size:56px;line-height:56px;font-weight:800;letter-spacing:-.03em;color:var(--accent-orange)}
+.lx-metric-label{margin:0;font-size:14px;line-height:20px;color:var(--ink-muted)}
+
+.lx-wa{width:300px;background:#111;border-radius:44px;padding:8px;font-family:var(--font-sans);box-shadow:0 0 0 1px #2a2a2a}
+.lx-wa-screen{border-radius:36px;overflow:hidden;background:#fff;display:flex;flex-direction:column;min-height:420px}
+.lx-wa-head{background:#008069;color:#fff;display:flex;align-items:center;gap:10px;padding:34px 14px 10px}
+.lx-wa-head img{width:32px;height:32px;border-radius:50%;background:#fff;padding:3px}
+.lx-wa-head b{display:block;font-size:14px;line-height:18px;font-weight:700}.lx-wa-head small{font-size:11px;opacity:.85}
+.lx-wa-body{flex:1;padding:12px;display:flex;flex-direction:column;gap:8px}
+.lx-wa-msg{max-width:82%;padding:7px 10px;border-radius:10px;font-size:13px;line-height:18px;font-weight:500;color:#111B21}
+.lx-wa-in{align-self:flex-start;background:#F0F2F5;border-top-left-radius:2px}
+.lx-wa-out{align-self:flex-end;background:#D9FDD3;border-top-right-radius:2px}
+.lx-wa-bar{margin:8px 10px 12px;height:30px;border-radius:15px;background:#F0F2F5;color:#667781;font-size:12px;display:flex;align-items:center;padding:0 12px}

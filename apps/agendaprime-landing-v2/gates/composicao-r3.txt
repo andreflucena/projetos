@@ -1,0 +1,24 @@
+
+GATE DE COMPOSIÇÃO  http://127.0.0.1:40271/
+========================================================================================
+Seções com h2, na ordem da página (desktop 1440):
+   1. topo                                       (sem h2)
+   2. Onde as oportunidades se perdem.           título à esquerda + grade de caixas
+   3. Quatro telas para a recepção.              título ao lado do conteúdo + texto
+   4. Do primeiro contato ao comparecimento.     título à esquerda + lista
+   5. Quando a confirmação sai?                  título ao lado do conteúdo + colunas sem caixa
+   6. Para cada papel, uma rotina.               título à esquerda + lista
+   7. Sem número inventado.                      título à esquerda + grade de caixas
+   8. Para quem o AgendaPrime™ faz sentido.      título à esquerda + grade de caixas
+   9. Perguntas frequentes.                      título centralizado + lista
+  10. Fale com a luxxen.ai.                      título ao lado do conteúdo + texto
+Motivo mais repetido: "traçado sem data-desenho de 14 px" 1 vez(es) (máximo 6); 2 desenho(s) fora de controle, de todo tamanho
+Desenhos SVG medidos: 1; menor contraste de traço fino ou destaque: nenhum medido
+desktop 1440: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: nenhuma
+celular 390: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: nenhuma
+========================================================================================
+  FALHA: desktop 1440: nenhuma figura humana na primeira tela para um público de pessoas ("Gestor ou proprietário de clínica de odontologia estética premium; no dia a dia, administrador e recepção (PRD 1.4)"): foto real com autorização ou ilustração própria com data-figura="pessoa" (0 figura(s) na página inteira)
+  FALHA: celular 390: nenhuma figura humana na primeira tela para um público de pessoas ("Gestor ou proprietário de clínica de odontologia estética premium; no dia a dia, administrador e recepção (PRD 1.4)"): foto real com autorização ou ilustração própria com data-figura="pessoa" (0 figura(s) na página inteira)
+
+  REPROVA: 2 problema(s) de composição.
+

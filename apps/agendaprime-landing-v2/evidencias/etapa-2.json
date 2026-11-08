@@ -1,0 +1,95 @@
+{
+ "direcao": "Escuro da marca com o produto em camadas na primeira dobra (funil e cartões flutuantes), inspirado na zero4, no Linear e no Attio, com o design system da luxxen.ai",
+ "tipografia": "Plus Jakarta Sans variável 400 a 800, local; display 64/68 peso 800, h2 32/40 peso 700, corpo 18/28 e 16/24; sem itálico e sem serifa",
+ "paleta": "Midnight #0B0F1A, painel #11162A, violeta #7C3AED, azul #60A5FA, laranja lux #FF6B1A só em setas, texto #F5F6FA e apoio #A7AEC2",
+ "imagem": "Sem foto, sem print real. O produto desenhado em HTML (funil, agenda, cartão, simulador) com a legenda de dados fictícios",
+ "ritmo": "Dobra centrada, cartões da dor, abas com tela do produto, linha em zigue-zague, simulador em duas colunas, papéis em linhas, regras em cartões, duas listas assimétricas, FAQ centrado e fecho com formulário; nenhum esqueleto repetido em vizinhas",
+ "assinatura": "O cartão da avaliação de quinta, 14h que passa de marcada a confirmação solicitada a confirmada",
+ "referencias_usadas": [
+  "zero4",
+  "Linear",
+  "Attio",
+  "Clinicorp"
+ ],
+ "foto_publico": [
+  {
+   "publico": "Gestor e recepção da clínica",
+   "foto": "nenhuma foto de pessoa",
+   "porque": "O PRD não traz foto nem autorização de imagem; o produto desenhado é a imagem"
+  }
+ ],
+ "secoes": [
+  {
+   "secao": "Primeira dobra",
+   "tratamento": "tipográfica centralizada com a tela do funil e cartões flutuantes",
+   "referencia": "zero4, produto em camadas na dobra"
+  },
+  {
+   "secao": "Dor",
+   "tratamento": "quatro cartões iguais com mini interface",
+   "referencia": "zero4, um cartão por dor"
+  },
+  {
+   "secao": "Quatro telas do produto",
+   "tratamento": "abas ao lado da tela do produto",
+   "referencia": "zero4 e Linear, produto como herói"
+  },
+  {
+   "secao": "Como funciona",
+   "tratamento": "linha central em zigue-zague",
+   "referencia": "zero4, método em etapas alternadas"
+  },
+  {
+   "secao": "Quando a confirmação sai",
+   "tratamento": "simulador com controles e cartão de resultado",
+   "referencia": "zero4, calculadora em duas colunas"
+  },
+  {
+   "secao": "Papéis",
+   "tratamento": "linhas largas com nome e descrição",
+   "referencia": "Attio, texto curto e direto"
+  },
+  {
+   "secao": "Regras do produto",
+   "tratamento": "três cartões escuros iguais",
+   "referencia": "zero4, cartões de prova que mostram a operação"
+  },
+  {
+   "secao": "Para quem é",
+   "tratamento": "duas listas assimétricas",
+   "referencia": "zero4, para quem é e para quem não é"
+  },
+  {
+   "secao": "Perguntas",
+   "tratamento": "coluna centrada abrindo ao clique",
+   "referencia": "Cal.com, respiro e uma ideia por tela"
+  },
+  {
+   "secao": "Fale com a luxxen.ai",
+   "tratamento": "split de contato com formulário em etapas",
+   "referencia": "zero4, diagnóstico em etapas curtas"
+  }
+ ],
+ "icones": [
+  {
+   "secao": "Dor",
+   "desenha": "mini interface de um contato com a etiqueta sem resposta"
+  },
+  {
+   "secao": "Dor",
+   "desenha": "mini interface de dois horários que se sobrepõem"
+  },
+  {
+   "secao": "Dor",
+   "desenha": "mini interface de um funil parado numa etapa"
+  },
+  {
+   "secao": "Dor",
+   "desenha": "mini interface de um funil com pontos de interrogação"
+  }
+ ],
+ "arquivos": [
+  "plano-visual.md",
+  "PLANO.md"
+ ]
+}

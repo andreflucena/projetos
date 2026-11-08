@@ -1,0 +1,28 @@
+
+GATE DE RITMO  http://127.0.0.1:34035/
+========================================================================================
+Esqueleto de cada seção, na ordem da página (desktop 1440):
+   1. Agenda, CRM e confirmações no mesmo flux   título centralizado + cartões
+      como mediu o título: text-align center; 1ª linha de 477 a 963 px, centro 720 px (seção: centro 720 px)
+   2. Onde as oportunidades se perdem.           título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 789 px, começa a 120 px da borda da seção
+   3. Quatro telas para a recepção.              título ao lado do conteúdo + texto
+      como mediu o título: há conteúdo ao lado do título (a partir de 600 px)
+   4. Do primeiro contato ao comparecimento.     título à esquerda + lista
+      como mediu o título: text-align start; 1ª linha de 120 a 905 px, começa a 120 px da borda da seção
+   5. Quando a confirmação sai?                  título ao lado do conteúdo + cartões
+      como mediu o título: há conteúdo ao lado do título (a partir de 688 px)
+   6. Para cada papel, uma rotina.               título à esquerda + assimétrico
+      como mediu o título: text-align start; 1ª linha de 120 a 654 px, começa a 120 px da borda da seção
+   7. Sem número inventado.                      título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 570 px, começa a 120 px da borda da seção
+   8. Para quem o AgendaPrime™ faz sentido.      título ao lado do conteúdo + cartões
+      como mediu o título: há conteúdo ao lado do título (a partir de 461 px)
+   9. Perguntas frequentes.                      título centralizado + lista
+      como mediu o título: text-align center; 1ª linha de 508 a 932 px, centro 720 px (seção: centro 720 px)
+  10. Fale com a luxxen.ai.                      título ao lado do conteúdo + texto
+      como mediu o título: há conteúdo ao lado do título (a partir de 688 px)
+medido: 10 seções; "título centralizado + cartões" em 1 (máximo 1); vizinhas iguais: 0
+========================================================================================
+  PASSA: nenhuma seção vizinha com o mesmo esqueleto e no máximo 1 "título centralizado + cartões".
+

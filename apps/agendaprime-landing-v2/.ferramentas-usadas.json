@@ -1,0 +1,11 @@
+{
+  "skill frontend-design": {
+    "quando": "2026-11-08T15:05:06",
+    "detalhe": "plano visual em duas passadas",
+    "evidencia": {
+      "tipo": "arquivo",
+      "valor": "plano-visual.md",
+      "sha256": "941512259e969fd3a2a07558c80ba7e1f742764ce0a16e845415d2d2d4fcb71e"
+    }
+  }
+}

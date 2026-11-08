@@ -1,0 +1,27 @@
+
+GATE DE SIMETRIA  http://127.0.0.1:46411/
+================================================================================
+desktop comum (1440x900)         FALHA (1) (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+notebook comum (1366x768)        FALHA (1) (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet paisagem (1024x768)       FALHA (1) (2 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet retrato (768x1024)        ok (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 0
+================================================================================
+  desktop comum (1440x900): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 120, 768, 120, 768, 120) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 83, 731, 83, 731, 83) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 41, 560, 41, 560, 41) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "É para clínicas que querem C" (base da caixa div.q-sim.visivel, termina em y 5429) e "Ainda não é para quem precis" (base da caixa div.q-nao.visivel, termina em y 5529) terminam com 100 px de diferença [a lista maior e a menor lado a lado, pedido no plano]
+  tablet retrato (768x1024): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 31, 432, 31, 432, 31) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  FALHA: desktop comum (1440x900): colunas desbalanceadas: "Agenda CRM Confirmações Indi" (base da caixa li, termina em y 2136) e "Agenda da semana Seg Ter Qua" (último texto p.exemplo, termina em y 2289) terminam com 153 px de diferença
+  FALHA: notebook comum (1366x768): colunas desbalanceadas: "Agenda CRM Confirmações Indi" (base da caixa li, termina em y 2136) e "Agenda da semana Seg Ter Qua" (último texto p.exemplo, termina em y 2289) terminam com 153 px de diferença
+  FALHA: tablet paisagem (1024x768): colunas desbalanceadas: "Agenda CRM Confirmações Indi" (base da caixa li, termina em y 2312) e "Agenda da semana Seg Ter Qua" (último texto p.exemplo, termina em y 2413) terminam com 101 px de diferença
+
+  REPROVA: 3 problema(s) de simetria.
+  Itens paralelos: grade de caixas iguais (mesmo topo, mesma altura, entrada escalonada).
+  Passos e perguntas: título em largura total em cima, itens em grade embaixo.
+  Colunas vizinhas terminam juntas (até 80 px) ou a seção se reestrutura.
+  Cards vizinhos: mesma estrutura por dentro (mídia do mesmo tamanho, título na mesma altura).
+

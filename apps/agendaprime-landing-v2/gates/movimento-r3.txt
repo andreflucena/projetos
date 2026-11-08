@@ -1,0 +1,27 @@
+
+GATE DE MOVIMENTO NA VISITA  http://127.0.0.1:36551/
+visita: 8 s parada no topo, depois rolagem em passos de 40% da tela
+========================================================================================
+conteúdo sem o script (6 s de espera por prova):
+desktop comum (1440x900)       ok  script bloqueado: 0 elemento(s) com texto ou imagem invisível(is)
+desktop comum (1440x900)       ok  script que demora 7 s: 0 elemento(s) com texto ou imagem invisível(is)
+iphone padrao (390x844)        ok  script bloqueado: 0 elemento(s) com texto ou imagem invisível(is)
+iphone padrao (390x844)        ok  script que demora 7 s: 0 elemento(s) com texto ou imagem invisível(is)
+desktop comum (1440x900)       ok  9/10 seções animam ao chegar, 0 com animação fora da tela
+desktop comum (1440x900)       ok  fim da visita: 0 elemento(s) com texto ou imagem invisível(is) na tela ou no fim
+iphone padrao (390x844)        ok  8/9 seções animam ao chegar, 0 com animação fora da tela
+iphone padrao (390x844)        ok  fim da visita: 0 elemento(s) com texto ou imagem invisível(is) na tela ou no fim
+desktop comum (1440x900)       ok  parada no topo por 4 s: 0 elemento(s) da primeira tela invisível(is)
+desktop comum (1440x900)       ok  salto até o fim: 0 elemento(s) acima da tela invisível(is)
+iphone padrao (390x844)        ok  parada no topo por 4 s: 0 elemento(s) da primeira tela invisível(is)
+iphone padrao (390x844)        ok  salto até o fim: 0 elemento(s) acima da tela invisível(is)
+por item: rolagem contínua a 300 px/s
+desktop comum (1440x900)       ok  0 item(ns) chegam parados
+iphone padrao (390x844)        ok  0 item(ns) chegam parados
+menor suportado (320x568)      ok  0 item(ns) chegam parados
+movimento reduzido: scroll-behavior auto
+movimento reduzido iphone padrao (390x844): 0 animações em curso
+movimento reduzido desktop comum (1440x900): 0 animações em curso
+========================================================================================
+  PASSA: 2 telas, nenhuma animação fora da tela e seções animando ao chegar; nenhum texto invisível parado no topo, no fim da visita nem depois de um salto; nenhum item chega parado a 300 px/s; nenhuma animação em curso com movimento reduzido.
+

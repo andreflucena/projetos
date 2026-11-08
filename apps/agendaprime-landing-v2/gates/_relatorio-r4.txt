@@ -1,0 +1,95 @@
+
+===== RELATÓRIO DA RODADA 4 =====
+PASSA    movimento         155 s   gates/movimento-r4.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    responsivo         91 s   gates/responsivo-r4.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    oclusao            15 s   gates/oclusao-r4.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    simetria           14 s   gates/simetria-r4.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+REPROVA  composicao        9,3 s   gates/composicao-r4.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    imagens           7,5 s   gates/imagens-r4.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem) e o projeto mudou)
+PASSA    texto             7,2 s   gates/texto-r4.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+REPROVA  ritmo             4,3 s   gates/ritmo-r4.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    sem-kicker        2,4 s   gates/sem-kicker-r4.txt   (rodou: o projeto mudou)
+PASSA    classes-mortas    0,1 s   gates/classes-mortas-r4.txt   (rodou: o projeto mudou)
+PASSA    verdade           0,1 s   gates/verdade-r4.txt   (rodou: o projeto mudou)
+PASSA    publicacao        0,1 s   gates/publicacao-r4.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    rastreamento      0,1 s   gates/rastreamento-r4.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem) e o projeto mudou)
+PASSA    seo               0,1 s   gates/seo-r4.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem) e o projeto mudou)
+PASSA    plano             0,1 s   gates/plano-r4.txt   (rodou: o projeto mudou)
+PASSA    referencias       0,3 s   gates/referencias-r4.txt   (rodou: o projeto mudou)
+
+----- AVISOS dos gates que passaram (não reprovam, mas leia) -----
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 120, 768, 120, 768, 120) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 83, 731, 83, 731, 83) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): grupo paralelo: grade irregular (3 + 1) em "Agenda" [abas e texto à esquerda e a tela do produto à direita, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 41, 560, 41, 560, 41) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  [simetria] tablet retrato (768x1024): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 31, 432, 31, 432, 31) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  [verdade] AVISO: 48 linha(s) da sustentacao.md não estão na tabela da seção d do PLANO (copy final, FAQ e rótulos entram na sustentacao.md; atualize o PLANO se a copy mudou), ex.: "O AgendaPrime™ organiza as avaliações da sua clínica de odontologia estética, do primeiro contato ao comparecimento."
+  [verdade] AVISO: 1 frase(s) da tabela do PLANO não estão na sustentacao.md (a copy mudou depois do plano?), ex.: "Sem número inventado."
+
+----- FALHAS (texto inteiro de cada gate que reprovou) -----
+
+### composicao (saída 1, 9,3 s)
+
+GATE DE COMPOSIÇÃO  http://127.0.0.1:37741/
+========================================================================================
+Seções com h2, na ordem da página (desktop 1440):
+   1. topo                                       (sem h2)
+   2. Onde as oportunidades se perdem.           título à esquerda + grade de caixas
+   3. Quatro telas para a recepção.              título ao lado do conteúdo + texto
+   4. Do primeiro contato ao comparecimento.     título à esquerda + lista
+   5. Quando a confirmação sai?                  título ao lado do conteúdo + colunas sem caixa
+   6. Para cada papel, uma rotina.               título à esquerda + lista
+   7. Sem número inventado.                      título à esquerda + grade de caixas
+   8. Para quem o AgendaPrime™ faz sentido.      título à esquerda + lista
+   9. Perguntas frequentes.                      título centralizado + lista
+  10. Fale com a luxxen.ai.                      título ao lado do conteúdo + texto
+Motivo mais repetido: "traçado sem data-desenho de 14 px" 1 vez(es) (máximo 6); 2 desenho(s) fora de controle, de todo tamanho
+Desenhos SVG medidos: 1; menor contraste de traço fino ou destaque: nenhum medido
+desktop 1440: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: nenhuma
+celular 390: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: nenhuma
+========================================================================================
+  FALHA: desktop 1440: nenhuma figura humana na primeira tela para um público de pessoas ("Gestor ou proprietário de clínica de odontologia estética premium; no dia a dia, administrador e recepção (PRD 1.4)"): foto real com autorização ou ilustração própria com data-figura="pessoa" (0 figura(s) na página inteira)
+  FALHA: celular 390: nenhuma figura humana na primeira tela para um público de pessoas ("Gestor ou proprietário de clínica de odontologia estética premium; no dia a dia, administrador e recepção (PRD 1.4)"): foto real com autorização ou ilustração própria com data-figura="pessoa" (0 figura(s) na página inteira)
+
+  REPROVA: 2 problema(s) de composição.
+Conserto: termine a linha do tempo no centro do último marco; ponha uma pessoa na primeira tela: foto real com autorização ou ilustração própria com data-figura="pessoa"; suba o contraste do destaque ou do traço fino para pelo menos 3:1 contra o fundo
+
+### ritmo (saída 1, 4,3 s)
+
+GATE DE RITMO  http://127.0.0.1:34943/
+========================================================================================
+Esqueleto de cada seção, na ordem da página (desktop 1440):
+   1. Agenda, CRM e confirmações no mesmo flux   título centralizado + cartões
+      como mediu o título: text-align center; 1ª linha de 477 a 963 px, centro 720 px (seção: centro 720 px)
+   2. Onde as oportunidades se perdem.           título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 789 px, começa a 120 px da borda da seção
+   3. Quatro telas para a recepção.              título ao lado do conteúdo + texto
+      como mediu o título: há conteúdo ao lado do título (a partir de 600 px)
+   4. Do primeiro contato ao comparecimento.     título à esquerda + lista
+      como mediu o título: text-align start; 1ª linha de 120 a 905 px, começa a 120 px da borda da seção
+   5. Quando a confirmação sai?                  título ao lado do conteúdo + cartões
+      como mediu o título: há conteúdo ao lado do título (a partir de 688 px)
+   6. Para cada papel, uma rotina.               título à esquerda + assimétrico
+      como mediu o título: text-align start; 1ª linha de 120 a 654 px, começa a 120 px da borda da seção
+   7. Sem número inventado.                      título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 570 px, começa a 120 px da borda da seção
+   8. Para quem o AgendaPrime™ faz sentido.      título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 886 px, começa a 120 px da borda da seção
+   9. Perguntas frequentes.                      título centralizado + lista
+      como mediu o título: text-align center; 1ª linha de 508 a 932 px, centro 720 px (seção: centro 720 px)
+  10. Fale com a luxxen.ai.                      título ao lado do conteúdo + texto
+      como mediu o título: há conteúdo ao lado do título (a partir de 688 px)
+medido: 10 seções; "título centralizado + cartões" em 1 (máximo 1); vizinhas iguais: 1
+========================================================================================
+  FALHA: seções vizinhas com o mesmo esqueleto ("título à esquerda + cartões"): "Sem número inventado." e "Para quem o AgendaPrime™ faz sentido."; cada seção escolhe um esqueleto que a anterior não usou
+
+  REPROVA: 1 problema(s) de ritmo.
+Conserto: dê a uma das duas seções vizinhas citadas outra estrutura (posição do título e tipo de corpo diferentes) e mantenha no máximo 1 título centralizado com cartões
+
+Total: 155 s de relógio (soma dos gates: 306 s, 16 gate(s), teto 2).
+RESULTADO: REPROVA em 2 de 16: composicao, ritmo.
+Corrija TUDO o que está acima e repita só esses:
+  node "/root/.claude/skills/construtor-paginas/scripts/rodar-gates.mjs" --projeto "/home/user/projetos/apps/agendaprime-landing-v2" --reprovados
+Quando tudo passar, faça uma rodada completa (sem --so e sem --reprovados): ela registra sozinha o exit real de cada gate na wave.
+Wave: 16 gate(s) registrado(s) com o exit real, sem digitar (wave.py gates-lote, gates/_wave-r4.json).
+Este comando não aprova nada: grava o exit real que cada gate devolveu, e a decisão de entregar continua sendo do wave.py checar e rodada.

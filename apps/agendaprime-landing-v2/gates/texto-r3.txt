@@ -1,0 +1,15 @@
+
+GATE DE TEXTO NA TELA  http://127.0.0.1:43845/
+================================================================================
+desktop comum (1440x900)         ok
+notebook comum (1366x768)        ok
+tablet retrato (768x1024)        ok
+iphone pro max (430x932)         ok
+iphone padrao (390x844)          ok
+android comum (360x740)          ok
+menor suportado (320x568)        ok
+================================================================================
+  medido em 1440x900: filetes de enfeite: 0 em 7,78 telas de 900 px (0,00 por tela; máximo 1,20); de tabela (dl, table), fora da conta: 0
+  medido em 1440x900: enfeite de título: nenhum h2 com enfeite; máximo 3
+  PASSA: 7 telas (320 a 1440), sem viúva em título nem subtítulo, sem item em minúscula, itálico contido, filetes e enfeite de título dentro do limite.
+

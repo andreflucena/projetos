@@ -1,0 +1,85 @@
+{
+  "lentes": {},
+  "gates": {
+    "movimento": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 154 s (gates/movimento-r6.txt)"
+    },
+    "responsivo": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 90 s (gates/responsivo-r6.txt)"
+    },
+    "oclusao": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 15 s (gates/oclusao-r6.txt)"
+    },
+    "simetria": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 13 s (gates/simetria-r6.txt)"
+    },
+    "composicao": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 1,
+      "detalhe": "rodar-gates r6: REPROVA (saída 1) em 9,1 s (gates/composicao-r6.txt)"
+    },
+    "imagens": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 7,4 s (gates/imagens-r6.txt)"
+    },
+    "texto": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 7,2 s (gates/texto-r6.txt)"
+    },
+    "ritmo": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 4,2 s (gates/ritmo-r6.txt)"
+    },
+    "sem-kicker": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 2,3 s (gates/sem-kicker-r6.txt)"
+    },
+    "classes-mortas": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 0,1 s (gates/classes-mortas-r6.txt)"
+    },
+    "verdade": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 0,1 s (gates/verdade-r6.txt)"
+    },
+    "publicacao": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 0,1 s (gates/publicacao-r6.txt)"
+    },
+    "rastreamento": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 0,1 s (gates/rastreamento-r6.txt)"
+    },
+    "seo": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 0,1 s (gates/seo-r6.txt)"
+    },
+    "plano": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 0,1 s (gates/plano-r6.txt)"
+    },
+    "referencias": {
+      "quando": "2026-11-08T15:25:50",
+      "exit": 0,
+      "detalhe": "rodar-gates r6: PASSA em 0,3 s (gates/referencias-r6.txt)"
+    }
+  }
+}

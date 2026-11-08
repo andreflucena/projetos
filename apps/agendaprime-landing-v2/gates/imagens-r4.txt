@@ -1,0 +1,6 @@
+
+GATE DE IMAGENS  /home/user/projetos/apps/agendaprime-landing-v2
+================================================================================
+  PASSA: toda imagem publicada com licença completa, crédito completo na página, aviso de imagem
+  ilustrativa (inclusive na prévia do link), nenhuma foto repetida entre seções e nenhuma borrada.
+

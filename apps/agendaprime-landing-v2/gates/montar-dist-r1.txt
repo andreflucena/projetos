@@ -1,0 +1,10 @@
+dist montada: 8 arquivo(s), 137.0 KiB em /home/user/projetos/apps/agendaprime-landing-v2/dist
+  conteúdo da dist: 7ec55e78fe11 (mudou)
+  app.js
+  apple-touch-icon.png
+  favicon.png
+  fonts/plus-jakarta-sans-variavel.woff2
+  index.html
+  marca/Logos/luxxen-logo-dark-bg.svg
+  og-image.jpg
+  robots.txt

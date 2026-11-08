@@ -1,0 +1,19 @@
+
+GATE DE SIMETRIA  http://127.0.0.1:33117/
+================================================================================
+desktop comum (1440x900)         ok (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+notebook comum (1366x768)        ok (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet paisagem (1024x768)       ok (2 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet retrato (768x1024)        ok (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 0
+================================================================================
+  desktop comum (1440x900): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 120, 768, 120, 768, 120) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 83, 731, 83, 731, 83) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): grupo paralelo: grade irregular (3 + 1) em "Agenda" [abas e texto à esquerda e a tela do produto à direita, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 41, 560, 41, 560, 41) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  tablet retrato (768x1024): AVISO (data-assimetrico): grupo paralelo: escada: 5 li em 5 alturas e 2 colunas (x 31, 432, 31, 432, 31) a partir de "Novo contato. Cada movimenta" [linha central com etapas alternadas, pedida no plano]
+  PASSA: 4 telas, itens paralelos simétricos e colunas equilibradas; 5 aviso(s) de assimetria declarada em data-assimetrico, não contam como falha.
+

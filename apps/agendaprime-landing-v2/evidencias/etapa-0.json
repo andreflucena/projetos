@@ -1,0 +1,22 @@
+{
+  "briefing": {
+    "nicho": "SaaS B2B de agenda de avaliações, CRM e confirmações para clínicas de odontologia estética premium (PRD 1.2 e 1.4)",
+    "local": "Online, clínicas no Brasil (suposição: PRD fixa só o fuso America/Sao_Paulo na clínica demo)",
+    "publico": "Gestor ou proprietário de clínica de odontologia estética premium; no dia a dia, administrador e recepção (PRD 1.4)",
+    "oferta": "Conversa com a luxxen.ai pelo WhatsApp, aberta por formulário; o PRD não define demonstração, teste nem plano",
+    "preco": "Pendente: o PRD não traz preço, não publicar",
+    "acao": "Formulário com nome e sobrenome, nome da clínica e WhatsApp da clínica, que abre o WhatsApp (81) 96617-5561 da luxxen.ai (confirmado pelo dono) Versão 2: estrutura inspirada na zero4 (outra empresa), com o design system da luxxen.ai; o formulário vira três etapas curtas"
+  },
+  "inventario": "Logo, ícones, tokens e bundle.css oficiais da luxxen.ai: sim (marca/). Fotos reais: nenhuma. Prints do produto: nenhum. Depoimentos e números de clientes: nenhum. WhatsApp: (81) 96617-5561. Política de privacidade, e-mail, CNPJ e domínio: nenhum",
+  "pendencias_cliente": [
+    "Preço ou forma de contratar",
+    "Política de privacidade (LGPD)",
+    "Domínio final",
+    "Prints reais do produto",
+    "Texto da mensagem que abre no WhatsApp",
+    "IDs de Meta Pixel e GA4, se houver anúncio"
+  ],
+  "arquivos": [
+    "evidencias/briefing.md"
+  ]
+}

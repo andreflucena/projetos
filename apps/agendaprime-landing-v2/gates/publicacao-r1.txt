@@ -1,0 +1,5 @@
+
+GATE DA PASTA DE PUBLICAÇÃO  /home/user/projetos/apps/agendaprime-landing-v2/dist
+============================================================================
+  PASSA: 8 arquivo(s), 137.0 KiB, todos usados pela página.
+
