@@ -47,3 +47,12 @@ Tema dark como rosto da marca, Plus Jakarta Sans, violeta e azul, laranja só de
 - IDs de Meta Pixel e GA4, se houver anúncio.
 
 Negócio fictício de teste: não
+
+## Trechos literais do PRD que sustentam a copy
+- "Agenda própria configurável, visualizações dia/semana/mês; bloqueios; criar, cancelar e remarcar avaliações" (PRD 2.1, resumido no item 2.1)
+- "Registrar autor, origem, horário, etapa anterior e nova etapa de cada movimentação" (RF-034)
+- "Agendamento criado atualiza etapa quando apropriado" (RF-036)
+- "Recepção registra realizado ou não compareceu" (J06)
+- "Passagem do tempo, sozinha, não implica comparecimento" (J06)
+- "A implantação ocorre em fases aprovadas individualmente." (princípio 7)
+- "Várias clínicas com isolamento de dados" (PRD 2.1, resumo do princípio 1)

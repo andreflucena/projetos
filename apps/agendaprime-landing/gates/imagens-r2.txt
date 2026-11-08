@@ -1,0 +1,12 @@
+
+GATE DE IMAGENS  /home/user/projetos/apps/agendaprime-landing
+================================================================================
+  FALHA: marca/Logos/luxxen-logo-dark-bg.svg: sem link da licença (http...)
+  FALHA: og-image.jpg: prévia do link sem aviso de "imagem ilustrativa" (a foto não é do cliente e é a primeira coisa que a visitante vê no WhatsApp)
+  FALHA: og-image.jpg: sem link da licença (http...)
+  FALHA: página: imagem que não é do cliente sem "imagem ilustrativa" no texto publicado
+  FALHA: desktop 1440: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+  FALHA: celular 390: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+
+  REPROVA: 6 problema(s) de licença, imagem ou aviso.
+

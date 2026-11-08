@@ -1,0 +1,47 @@
+
+GATE DE TEXTO NA TELA  http://127.0.0.1:34085/
+================================================================================
+desktop comum (1440x900)         FALHA (2)
+notebook comum (1366x768)        FALHA (1)
+tablet retrato (768x1024)        ok
+iphone pro max (430x932)         FALHA (2)
+iphone padrao (390x844)          FALHA (2)
+android comum (360x740)          FALHA (6)
+menor suportado (320x568)        FALHA (8)
+================================================================================
+  medido em 1440x900: filetes de enfeite: 15 em 6,21 telas de 900 px (2,41 por tela; máximo 1,20); de tabela (dl, table), fora da conta: 0
+  medido em 1440x900: enfeite de título: nenhum h2 com enfeite; máximo 3
+  aviso: 15 filetes de 1 px (desktop comum (1440x900)): sinal do "jornal de filetes", conferir no print
+  aviso: 15 filetes de 1 px (notebook comum (1366x768)): sinal do "jornal de filetes", conferir no print
+  aviso: 16 filetes de 1 px (tablet retrato (768x1024)): sinal do "jornal de filetes", conferir no print
+  aviso: 16 filetes de 1 px (iphone pro max (430x932)): sinal do "jornal de filetes", conferir no print
+  aviso: 16 filetes de 1 px (iphone padrao (390x844)): sinal do "jornal de filetes", conferir no print
+  aviso: 16 filetes de 1 px (android comum (360x740)): sinal do "jornal de filetes", conferir no print
+  aviso: 16 filetes de 1 px (menor suportado (320x568)): sinal do "jornal de filetes", conferir no print
+  FALHA: desktop comum (1440x900): viúva: p "Dia, semana e mês, com bloqueios, cancel" termina com "remarcação." sozinha (3 linhas, texto de caixa)
+  FALHA: desktop comum (1440x900): 15 filetes de 1 px de enfeite em 6,21 telas de 900 px, 2,41 por tela (máximo 1,20): é o "jornal de filetes"; separe por cor de superfície e espaço, não por fio (os 0 de tabela não contam)
+  FALHA: notebook comum (1366x768): viúva: p "Dia, semana e mês, com bloqueios, cancel" termina com "remarcação." sozinha (3 linhas, texto de caixa)
+  FALHA: iphone pro max (430x932): viúva: p "Contatos, agendamentos, confirmações, co" termina com "pendências." sozinha (3 linhas, texto de caixa)
+  FALHA: iphone pro max (430x932): viúva: p "A equipe registra o comparecimento. A pa" termina com "comparecimento." sozinha (3 linhas, texto de caixa)
+  FALHA: iphone padrao (390x844): viúva: p "Dia, semana e mês, com bloqueios, cancel" termina com "remarcação." sozinha (3 linhas, texto de caixa)
+  FALHA: iphone padrao (390x844): viúva: p "Um quadro Kanban com o histórico de cada" termina com "movimentação." sozinha (3 linhas, texto de caixa)
+  FALHA: android comum (360x740): viúva: h2 "Sem número inventado." termina com "inventado." sozinha (2 linhas)
+  FALHA: android comum (360x740): viúva: summary "A IA atende e marca pelo WhatsApp?" termina com "WhatsApp?" sozinha (2 linhas)
+  FALHA: android comum (360x740): viúva: summary "O AgendaPrime™ substitui o prontuário?" termina com "prontuário?" sozinha (2 linhas)
+  FALHA: android comum (360x740): viúva: p "Dia, semana e mês, com bloqueios, cancel" termina com "remarcação." sozinha (3 linhas, texto de caixa)
+  FALHA: android comum (360x740): viúva: p "Um quadro Kanban com o histórico de cada" termina com "movimentação." sozinha (3 linhas, texto de caixa)
+  FALHA: android comum (360x740): viúva: p "Contatos, agendamentos, confirmações, co" termina com "pendências." sozinha (4 linhas, texto de caixa)
+  FALHA: menor suportado (320x568): viúva: h1 "Agenda, CRM e confirmações no mesmo flux" termina com "fluxo." sozinha (4 linhas)
+  FALHA: menor suportado (320x568): viúva: h2 "Sem número inventado." termina com "inventado." sozinha (2 linhas)
+  FALHA: menor suportado (320x568): viúva: h2 "Perguntas frequentes." termina com "frequentes." sozinha (2 linhas)
+  FALHA: menor suportado (320x568): viúva: summary "A IA atende e marca pelo WhatsApp?" termina com "WhatsApp?" sozinha (2 linhas)
+  FALHA: menor suportado (320x568): viúva: summary "O que acontece se o paciente não respond" termina com "confirmação?" sozinha (3 linhas)
+  FALHA: menor suportado (320x568): viúva: p "Dia, semana e mês, com bloqueios, cancel" termina com "remarcação." sozinha (4 linhas, texto de caixa)
+  FALHA: menor suportado (320x568): viúva: p "Um quadro Kanban com o histórico de cada" termina com "movimentação." sozinha (3 linhas, texto de caixa)
+  FALHA: menor suportado (320x568): viúva: p "Contatos, agendamentos, confirmações, co" termina com "pendências." sozinha (5 linhas, texto de caixa)
+
+  REPROVA: 21 problema(s) de texto na tela.
+  Viúva: text-wrap: balance no título ou ajuste da copy. Minúscula: primeira letra maiúscula
+  em todo item. Itálico colorido: no máximo um trecho na página. Filete: separar por cor e espaço.
+  Enfeite de título: tirar o traço repetido; a hierarquia vem de tamanho, peso e espaço.
+

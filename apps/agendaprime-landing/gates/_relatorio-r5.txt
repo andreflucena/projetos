@@ -1,0 +1,130 @@
+
+===== RELATÓRIO DA RODADA 5 =====
+PASSA    movimento         135 s   gates/movimento-r5.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+REPROVA  responsivo         86 s   gates/responsivo-r5.txt   (saída 1)   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    oclusao            11 s   gates/oclusao-r5.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    simetria           12 s   gates/simetria-r5.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    composicao        8,6 s   gates/composicao-r5.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem) e o projeto mudou)
+REPROVA  imagens           7,5 s   gates/imagens-r5.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    texto             7,1 s   gates/texto-r5.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    ritmo             3,9 s   gates/ritmo-r5.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    sem-kicker        1,4 s   gates/sem-kicker-r5.txt   (rodou: o projeto mudou)
+PASSA    classes-mortas    0,1 s   gates/classes-mortas-r5.txt   (rodou: o projeto mudou)
+PASSA    verdade           0,1 s   gates/verdade-r5.txt   (rodou: o projeto mudou)
+PASSA    publicacao        0,1 s   gates/publicacao-r5.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem))
+PASSA    rastreamento      0,1 s   gates/rastreamento-r5.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem) e o projeto mudou)
+PASSA    seo               0,1 s   gates/seo-r5.txt   (rodou: a dist mudou (HTML, CSS, JS ou imagem) e o projeto mudou)
+PASSA    plano             0,2 s   gates/plano-r5.txt   (rodou: o projeto mudou)
+PASSA    referencias       0,3 s   gates/referencias-r5.txt   (rodou: o projeto mudou)
+
+----- AVISOS dos gates que passaram (não reprovam, mas leia) -----
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 658) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 534 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 1046) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1337) terminam com 291 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2621) e "Um horário, uma avaliação. D" (último texto p, termina em y 2520) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3131) e "Novo contato. Cada movimenta" (último texto p, termina em y 3384) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 607) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 483 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 943) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1234) terminam com 291 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2518) e "Um horário, uma avaliação. D" (último texto p, termina em y 2417) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3028) e "Novo contato. Cada movimenta" (último texto p, termina em y 3281) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 580) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 456 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 905) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1187) terminam com 282 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2616) e "Um horário, uma avaliação. D" (último texto p, termina em y 2523) terminam com 92 px de diferença [desenho largo e texto estreito, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3114) e "Novo contato. Cada movimenta" (último texto p, termina em y 3339) terminam com 225 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] tablet retrato (768x1024): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 671) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 547 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  [verdade] AVISO: 26 linha(s) da sustentacao.md não estão na tabela da seção d do PLANO (copy final, FAQ e rótulos entram na sustentacao.md; atualize o PLANO se a copy mudou), ex.: "Agenda, CRM e confirmações"
+  [verdade] AVISO: 16 frase(s) da tabela do PLANO não estão na sustentacao.md (a copy mudou depois do plano?), ex.: "Agenda, CRM e confirmações no mesmo fluxo."
+
+----- FALHAS (texto inteiro de cada gate que reprovou) -----
+
+### responsivo (saída 1, 86 s)
+
+GATE DE RESPONSIVIDADE  http://127.0.0.1:44007/
+========================================================================================
+tela              dim         overflow  CTA     toque   texto   imagem
+----------------------------------------------------------------------------------------
+desktop grande    1920x1080   ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1920px, innerWidth 1920px
+macbook 16        1728x1117   ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1728px, innerWidth 1728px
+macbook 14        1512x982    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1512px, innerWidth 1512px
+desktop comum     1440x900    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1440px, innerWidth 1440px
+notebook comum    1366x768    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1366px, innerWidth 1366px
+laptop pequeno    1280x800    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1280px, innerWidth 1280px
+tablet paisagem   1024x768    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1024px, innerWidth 1024px
+tablet retrato    768x1024    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 768px, innerWidth 768px
+iphone pro max    430x932     ok        ok      ok      ok      ok  
+  medido: scrollWidth da pagina 430px, innerWidth 430px, 1 carrossel com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 65px (7.0%), foto do herói sem foto no herói, até 2 botão(ões) por tela, 1 encostado(s) na barra
+iphone padrao     390x844     ok        ok      ok      ok      ok  
+  medido: scrollWidth da pagina 390px, innerWidth 390px, 1 carrossel com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 65px (7.7%), foto do herói sem foto no herói, até 2 botão(ões) por tela, 0 encostado(s) na barra
+android comum     360x740     ok        ok      ok      ok      ok  
+  medido: scrollWidth da pagina 360px, innerWidth 360px, 1 carrossel com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 65px (8.8%), foto do herói sem foto no herói, até 2 botão(ões) por tela, 1 encostado(s) na barra
+menor suportado   320x568     ok        ok      ok      ok      ok  
+  medido: scrollWidth da pagina 320px, innerWidth 320px, 1 carrossel com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 65px (11.4%), foto do herói sem foto no herói, até 2 botão(ões) por tela, 1 encostado(s) na barra
+----------------------------------------------------------------------------------------
+primeira tela visível no celular (área da página com as barras do navegador; folga mínima no pé 8 px; foto 35% da área, piso 20% quando o texto ocupa o resto)
+  primeira tela visível 390x664 (iphone 12 a 14 com as barras do Safari; tela 390x844): manchete 70 a 185, apoio 199 a 268, botão 294 a 346 "Falar com a luxxen.ai »", folga 318 px, sem foto no herói  ok
+  primeira tela visível 360x616 (android 360 com as barras do Chrome; tela 360x740): manchete 70 a 185, apoio 199 a 268, botão 294 a 346 "Falar com a luxxen.ai »", folga 270 px, sem foto no herói  ok
+  primeira tela visível 375x553 (iphone SE com as barras do Safari (estimativa); tela 375x667): manchete 70 a 185, apoio 199 a 268, botão 294 a 346 "Falar com a luxxen.ai »", folga 207 px, sem foto no herói  ok
+========================================================================================
+  FALHA: iphone pro max (430x932): CTA camuflado no fundo (< 3:1): Falar com a luxxen.ai
+» (2.54:1 contra a faixa medida 10 a 30 px acima do botão, rgb(35, 40, 61); 1 de 1 lados medidos sem contraste: em cima)
+  FALHA: iphone pro max (430x932): 2 botões de ação na mesma tela em scrollY 4960 (Enviar pelo WhatsApp
+» | Falar com a luxxen.ai
+): no máximo 1 por tela; a barra fixa some quando há botão da página à vista
+  FALHA: iphone pro max (430x932): botão coberto ou encostado na barra fixa (menos de 8 px): "Enviar pelo WhatsApp
+»" a -98 px da barra fixa (scrollY 4960)
+  FALHA: iphone padrao (390x844): 2 botões de ação na mesma tela em scrollY 5217 (Enviar pelo WhatsApp
+» | Falar com a luxxen.ai
+): no máximo 1 por tela; a barra fixa some quando há botão da página à vista
+  FALHA: android comum (360x740): 2 botões de ação na mesma tela em scrollY 5412 (Enviar pelo WhatsApp
+» | Falar com a luxxen.ai
+): no máximo 1 por tela; a barra fixa some quando há botão da página à vista
+  FALHA: android comum (360x740): botão coberto ou encostado na barra fixa (menos de 8 px): "Enviar pelo WhatsApp
+»" a -59 px da barra fixa (scrollY 5412)
+  FALHA: menor suportado (320x568): 2 botões de ação na mesma tela em scrollY 5795 (Enviar pelo WhatsApp
+» | Falar com a luxxen.ai
+): no máximo 1 por tela; a barra fixa some quando há botão da página à vista
+  FALHA: menor suportado (320x568): botão coberto ou encostado na barra fixa (menos de 8 px): "Enviar pelo WhatsApp
+»" a -46 px da barra fixa (scrollY 5795)
+
+  REPROVA: 8 problema(s) de responsividade em 12 telas e 3 primeiras telas visíveis.
+  Duas lembrancas que custaram caro aqui:
+   - ALTURA conta tanto quanto largura: janela baixa com titulo grande empurra o
+     CTA pra fora da dobra, e teste de largura sozinho nunca pega isso.
+   - um botao tem DOIS contrastes: o texto dentro dele E ele contra o fundo.
+     Consertar so o primeiro ja produziu botao verde escuro em secao verde escura.
+Conserto: dê ao botão contraste de pelo menos 3:1 com o fundo; deixe 1 botão de ação por tela no celular: a barra fixa some quando há botão da página à vista; afaste o botão da barra fixa (mais de 8 px) ou ponha padding-bottom na seção
+
+### imagens (saída 1, 7,5 s)
+
+GATE DE IMAGENS  /home/user/projetos/apps/agendaprime-landing
+================================================================================
+  FALHA: desktop 1440: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+  FALHA: celular 390: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+
+  REPROVA: 2 problema(s) de licença, imagem ou aviso.
+Conserto: leia as linhas FALHA acima: troque a foto repetida ou borrada, ou complete a licença e o crédito em imagens/LICENCAS.md e no HTML
+
+Total: 137 s de relógio (soma dos gates: 274 s, 16 gate(s), teto 2).
+RESULTADO: REPROVA em 2 de 16: responsivo, imagens.
+Corrija TUDO o que está acima e repita só esses:
+  node "/root/.claude/skills/construtor-paginas/scripts/rodar-gates.mjs" --projeto "/home/user/projetos/apps/agendaprime-landing" --reprovados
+Quando tudo passar, faça uma rodada completa (sem --so e sem --reprovados): ela registra sozinha o exit real de cada gate na wave.
+Wave: 16 gate(s) registrado(s) com o exit real, sem digitar (wave.py gates-lote, gates/_wave-r5.json).
+Este comando não aprova nada: grava o exit real que cada gate devolveu, e a decisão de entregar continua sendo do wave.py checar e rodada.

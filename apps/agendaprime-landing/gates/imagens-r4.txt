@@ -1,0 +1,8 @@
+
+GATE DE IMAGENS  /home/user/projetos/apps/agendaprime-landing
+================================================================================
+  FALHA: desktop 1440: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+  FALHA: celular 390: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+
+  REPROVA: 2 problema(s) de licença, imagem ou aviso.
+

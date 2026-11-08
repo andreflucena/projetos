@@ -1,0 +1,41 @@
+
+GATE DE RESPONSIVIDADE  http://127.0.0.1:43541/
+========================================================================================
+tela              dim         overflow  CTA     toque   texto   imagem
+----------------------------------------------------------------------------------------
+desktop grande    1920x1080   ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1920px, innerWidth 1920px
+macbook 16        1728x1117   ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1728px, innerWidth 1728px
+macbook 14        1512x982    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1512px, innerWidth 1512px
+desktop comum     1440x900    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1440px, innerWidth 1440px
+notebook comum    1366x768    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1366px, innerWidth 1366px
+laptop pequeno    1280x800    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1280px, innerWidth 1280px
+tablet paisagem   1024x768    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 1024px, innerWidth 1024px
+tablet retrato    768x1024    ok        ok      -       -       ok  
+  medido: scrollWidth da pagina 768px, innerWidth 768px
+iphone pro max    430x932     ok        ok      ok      ok      ok  
+  medido: scrollWidth da pagina 430px, innerWidth 430px, 1 carrossel com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 65px (7.0%), foto do herói sem foto no herói, até 1 botão(ões) por tela, 0 encostado(s) na barra
+iphone padrao     390x844     ok        ok      ok      ok      ok  
+  medido: scrollWidth da pagina 390px, innerWidth 390px, 1 carrossel com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 65px (7.7%), foto do herói sem foto no herói, até 1 botão(ões) por tela, 0 encostado(s) na barra
+android comum     360x740     ok        ok      ok      ok      ok  
+  medido: scrollWidth da pagina 360px, innerWidth 360px, 1 carrossel com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 65px (8.8%), foto do herói sem foto no herói, até 1 botão(ões) por tela, 0 encostado(s) na barra
+menor suportado   320x568     ok        ok      ok      ok      ok  
+  medido: scrollWidth da pagina 320px, innerWidth 320px, 1 carrossel com encaixe (overflow-x auto + scroll-snap-type) fora da conta de estouro
+  medido no celular: fixo 65px (11.4%), foto do herói sem foto no herói, até 1 botão(ões) por tela, 0 encostado(s) na barra
+----------------------------------------------------------------------------------------
+primeira tela visível no celular (área da página com as barras do navegador; folga mínima no pé 8 px; foto 35% da área, piso 20% quando o texto ocupa o resto)
+  primeira tela visível 390x664 (iphone 12 a 14 com as barras do Safari; tela 390x844): manchete 70 a 185, apoio 199 a 268, botão 294 a 346 "Falar com a luxxen.ai »", folga 318 px, sem foto no herói  ok
+  primeira tela visível 360x616 (android 360 com as barras do Chrome; tela 360x740): manchete 70 a 185, apoio 199 a 268, botão 294 a 346 "Falar com a luxxen.ai »", folga 270 px, sem foto no herói  ok
+  primeira tela visível 375x553 (iphone SE com as barras do Safari (estimativa); tela 375x667): manchete 70 a 185, apoio 199 a 268, botão 294 a 346 "Falar com a luxxen.ai »", folga 207 px, sem foto no herói  ok
+========================================================================================
+  PASSA: 12 telas e 3 primeiras telas visíveis, nenhum problema de responsividade.
+

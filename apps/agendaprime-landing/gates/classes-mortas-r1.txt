@@ -1,0 +1,5 @@
+GATE DE CLASSE MORTA
+========================================================================
+  CSS lido:    index.html
+  arquivos:    1
+  PASSA: nenhuma classe do código está ausente do CSS gerado.

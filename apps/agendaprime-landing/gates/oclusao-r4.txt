@@ -1,0 +1,10 @@
+
+[desktop] 49 blocos de texto analisados
+   ok       nada coberto, nada cortado
+
+[mobile] 47 blocos de texto analisados
+   ok       nada coberto, nada cortado
+
+======================================================================
+  PASSA: nenhum texto coberto ou cortado, nas duas telas.
+

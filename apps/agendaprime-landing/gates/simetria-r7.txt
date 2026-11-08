@@ -1,0 +1,33 @@
+
+GATE DE SIMETRIA  http://127.0.0.1:32775/
+================================================================================
+desktop comum (1440x900)         ok (6 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+notebook comum (1366x768)        ok (6 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet paisagem (1024x768)       ok (6 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet retrato (768x1024)        ok (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 0
+================================================================================
+  desktop comum (1440x900): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 658) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 534 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 1046) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1337) terminam com 291 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2621) e "Um horário, uma avaliação. D" (último texto p, termina em y 2520) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3131) e "Novo contato. Cada movimenta" (último texto p, termina em y 3384) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 607) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 483 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 943) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1234) terminam com 291 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2518) e "Um horário, uma avaliação. D" (último texto p, termina em y 2417) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3028) e "Novo contato. Cada movimenta" (último texto p, termina em y 3281) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 580) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 456 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 905) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1187) terminam com 282 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2616) e "Um horário, uma avaliação. D" (último texto p, termina em y 2523) terminam com 92 px de diferença [desenho largo e texto estreito, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3114) e "Novo contato. Cada movimenta" (último texto p, termina em y 3339) terminam com 225 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  tablet retrato (768x1024): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 671) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 547 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  PASSA: 4 telas, itens paralelos simétricos e colunas equilibradas; 19 aviso(s) de assimetria declarada em data-assimetrico, não contam como falha.
+

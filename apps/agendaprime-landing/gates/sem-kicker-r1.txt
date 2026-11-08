@@ -1,0 +1,5 @@
+REPROVADO (tell de IA: kicker em caixa alta ou número decorativo):
+  - /home/user/projetos/apps/agendaprime-landing/marca/components/bundle.css: CSS ".lx-eyebrow" é receita de kicker (uppercase + letter-spacing 0.18em)
+  - /home/user/projetos/apps/agendaprime-landing/styles.css: CSS ".lx-eyebrow" é receita de kicker (uppercase + letter-spacing 0.18em)
+Conserto: a seção abre direto no título. Rótulo curto em caixa alta com espaçamento
+largo antes do h1/h2/h3 é a assinatura de página gerada por IA.

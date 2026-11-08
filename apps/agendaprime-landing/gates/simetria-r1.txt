@@ -1,0 +1,42 @@
+
+GATE DE SIMETRIA  http://127.0.0.1:39385/
+================================================================================
+desktop comum (1440x900)         FALHA (4) (3 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+notebook comum (1366x768)        FALHA (4) (3 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet paisagem (1024x768)       FALHA (5) (3 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 2
+tablet retrato (768x1024)        FALHA (1)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 0
+================================================================================
+  desktop comum (1440x900): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2590) e "Um horário, uma avaliação. D" (último texto p, termina em y 2489) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3100) e "Novo contato. Cada movimenta" (último texto p, termina em y 3353) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2487) e "Um horário, uma avaliação. D" (último texto p, termina em y 2386) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 2997) e "Novo contato. Cada movimenta" (último texto p, termina em y 3250) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2353) e "Um horário, uma avaliação. D" (último texto p, termina em y 2260) terminam com 92 px de diferença [desenho largo e texto estreito, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 2851) e "Novo contato. Cada movimenta" (último texto p, termina em y 3076) terminam com 225 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  FALHA: desktop comum (1440x900): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita
+  FALHA: desktop comum (1440x900): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 658) e "DIV" (topo (sem conteúdo medido) div.arte, termina em y 124) terminam com 534 px de diferença
+  FALHA: desktop comum (1440x900): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 1046) e "A demora no atendimento cust" (último texto span, termina em y 1280) terminam com 234 px de diferença
+  FALHA: desktop comum (1440x900): colunas desbalanceadas: "Fale com a luxxen.ai. Preenc" (último texto p.exemplo, termina em y 5184) e "Nome e sobrenome Nome da clí" (base da caixa form#form-contato.lx-panel.form, termina em y 5287) terminam com 103 px de diferença
+  FALHA: notebook comum (1366x768): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita
+  FALHA: notebook comum (1366x768): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 607) e "DIV" (topo (sem conteúdo medido) div.arte, termina em y 124) terminam com 483 px de diferença
+  FALHA: notebook comum (1366x768): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 943) e "A demora no atendimento cust" (último texto span, termina em y 1177) terminam com 234 px de diferença
+  FALHA: notebook comum (1366x768): colunas desbalanceadas: "Fale com a luxxen.ai. Preenc" (último texto p.exemplo, termina em y 5081) e "Nome e sobrenome Nome da clí" (base da caixa form#form-contato.lx-panel.form, termina em y 5184) terminam com 103 px de diferença
+  FALHA: tablet paisagem (1024x768): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita
+  FALHA: tablet paisagem (1024x768): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 580) e "DIV" (topo (sem conteúdo medido) div.arte, termina em y 124) terminam com 456 px de diferença
+  FALHA: tablet paisagem (1024x768): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 905) e "A demora no atendimento cust" (último texto span, termina em y 1130) terminam com 224 px de diferença
+  FALHA: tablet paisagem (1024x768): colunas desbalanceadas: "Fale com a luxxen.ai. Preenc" (último texto p.exemplo, termina em y 4798) e "Nome e sobrenome Nome da clí" (base da caixa form#form-contato.lx-panel.form, termina em y 4904) terminam com 106 px de diferença
+  FALHA: tablet paisagem (1024x768): faixa de linhas diferente: texto em 4, 3, 3, 5 linhas nas caixas de "Agenda Dia, semana e mês, co" (máximo 1 linha de diferença)
+  FALHA: tablet retrato (768x1024): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 671) e "DIV" (topo (sem conteúdo medido) div.arte, termina em y 124) terminam com 547 px de diferença
+
+  REPROVA: 14 problema(s) de simetria.
+  Itens paralelos: grade de caixas iguais (mesmo topo, mesma altura, entrada escalonada).
+  Passos e perguntas: título em largura total em cima, itens em grade embaixo.
+  Colunas vizinhas terminam juntas (até 80 px) ou a seção se reestrutura.
+  Cards vizinhos: mesma estrutura por dentro (mídia do mesmo tamanho, título na mesma altura).
+

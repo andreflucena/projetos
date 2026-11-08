@@ -1,0 +1,14 @@
+
+GATE DE REFERÊNCIAS
+========================================================================
+  [ok   ] mesmo-negocio https://www.clinicorp.com
+  [ok   ] mesmo-negocio https://www.simplesdental.com
+  [ok   ] mesmo-negocio https://cal.com
+  [ok   ] design        https://attio.com
+  [ok   ] design        https://linear.app
+  [ok   ] design        https://stripe.com
+  [ok   ] design        https://vercel.com
+  [ok   ] design        https://www.notion.com
+========================================================================
+  PASSA: 8 referências reais, com prints e leitura. Siga para o plano visual.
+

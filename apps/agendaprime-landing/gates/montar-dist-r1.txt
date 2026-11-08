@@ -1,0 +1,11 @@
+dist montada: 7 arquivo(s), 121.7 KiB em /home/user/projetos/apps/agendaprime-landing/dist
+dist refeita: o conteúdo de /home/user/projetos/apps/agendaprime-landing/dist foi trocado e a pasta foi mantida. Um servidor que serve esta pasta segue no ar e entrega a versão nova; se ele caiu, suba de novo com servidor-gzip.py (ele imprime a URL).
+  0 arquivo(s) gravado(s), 7 igual(is) mantido(s) com a data de antes; dist inalterada: nenhum arquivo mudou.
+  conteúdo da dist: af2c6d36b7e1 (o mesmo da montagem anterior)
+  app.js
+  apple-touch-icon.png
+  favicon.png
+  fonts/plus-jakarta-sans-variavel.woff2
+  index.html
+  marca/Logos/luxxen-logo-dark-bg.svg
+  og-image.jpg

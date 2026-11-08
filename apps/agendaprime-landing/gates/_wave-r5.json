@@ -1,0 +1,84 @@
+{
+  "gates": [
+    {
+      "nome": "movimento",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 135 s (gates/movimento-r5.txt)"
+    },
+    {
+      "nome": "responsivo",
+      "exit": 1,
+      "detalhe": "rodar-gates r5: REPROVA (saída 1) em 86 s (gates/responsivo-r5.txt)"
+    },
+    {
+      "nome": "oclusao",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 11 s (gates/oclusao-r5.txt)"
+    },
+    {
+      "nome": "simetria",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 12 s (gates/simetria-r5.txt)"
+    },
+    {
+      "nome": "composicao",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 8,6 s (gates/composicao-r5.txt)"
+    },
+    {
+      "nome": "imagens",
+      "exit": 1,
+      "detalhe": "rodar-gates r5: REPROVA (saída 1) em 7,5 s (gates/imagens-r5.txt)"
+    },
+    {
+      "nome": "texto",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 7,1 s (gates/texto-r5.txt)"
+    },
+    {
+      "nome": "ritmo",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 3,9 s (gates/ritmo-r5.txt)"
+    },
+    {
+      "nome": "sem-kicker",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 1,4 s (gates/sem-kicker-r5.txt)"
+    },
+    {
+      "nome": "classes-mortas",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 0,1 s (gates/classes-mortas-r5.txt)"
+    },
+    {
+      "nome": "verdade",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 0,1 s (gates/verdade-r5.txt)"
+    },
+    {
+      "nome": "publicacao",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 0,1 s (gates/publicacao-r5.txt)"
+    },
+    {
+      "nome": "rastreamento",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 0,1 s (gates/rastreamento-r5.txt)"
+    },
+    {
+      "nome": "seo",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 0,1 s (gates/seo-r5.txt)"
+    },
+    {
+      "nome": "plano",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 0,2 s (gates/plano-r5.txt)"
+    },
+    {
+      "nome": "referencias",
+      "exit": 0,
+      "detalhe": "rodar-gates r5: PASSA em 0,3 s (gates/referencias-r5.txt)"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+
+===== RELATÓRIO DA RODADA 2 =====
+REPROVA  movimento         135 s   gates/movimento-r2.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    responsivo         85 s   gates/responsivo-r2.txt   (rodou: sem laudo PASSA guardado)
+REPROVA  simetria           12 s   gates/simetria-r2.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    composicao        8,5 s   gates/composicao-r2.txt   (rodou: sem laudo PASSA guardado)
+REPROVA  imagens           7,5 s   gates/imagens-r2.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+REPROVA  texto             7,1 s   gates/texto-r2.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+REPROVA  sem-kicker        1,5 s   gates/sem-kicker-r2.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    verdade           0,1 s   gates/verdade-r2.txt   (rodou: sem laudo PASSA guardado)
+PASSA    publicacao        0,1 s   gates/publicacao-r2.txt   (rodou: sem laudo PASSA guardado)
+PASSA    seo               0,1 s   gates/seo-r2.txt   (rodou: sem laudo PASSA guardado)
+
+----- AVISOS dos gates que passaram (não reprovam, mas leia) -----
+  [verdade] AVISO: 26 linha(s) da sustentacao.md não estão na tabela da seção d do PLANO (copy final, FAQ e rótulos entram na sustentacao.md; atualize o PLANO se a copy mudou), ex.: "Agenda, CRM e confirmações"
+  [verdade] AVISO: 16 frase(s) da tabela do PLANO não estão na sustentacao.md (a copy mudou depois do plano?), ex.: "Agenda, CRM e confirmações no mesmo fluxo."
+
+----- FALHAS (texto inteiro de cada gate que reprovou) -----
+
+### movimento (saída 1, 135 s)
+
+GATE DE MOVIMENTO NA VISITA  http://127.0.0.1:34387/
+visita: 8 s parada no topo, depois rolagem em passos de 40% da tela
+========================================================================================
+conteúdo sem o script (6 s de espera por prova):
+desktop comum (1440x900)       ok  script bloqueado: 0 elemento(s) com texto ou imagem invisível(is)
+desktop comum (1440x900)       ok  script que demora 7 s: 0 elemento(s) com texto ou imagem invisível(is)
+iphone padrao (390x844)        ok  script bloqueado: 0 elemento(s) com texto ou imagem invisível(is)
+iphone padrao (390x844)        ok  script que demora 7 s: 0 elemento(s) com texto ou imagem invisível(is)
+desktop comum (1440x900)       ok  6/7 seções animam ao chegar, 0 com animação fora da tela
+desktop comum (1440x900)       ok  fim da visita: 0 elemento(s) com texto ou imagem invisível(is) na tela ou no fim
+iphone padrao (390x844)        ok  6/7 seções animam ao chegar, 0 com animação fora da tela
+iphone padrao (390x844)        ok  fim da visita: 0 elemento(s) com texto ou imagem invisível(is) na tela ou no fim
+desktop comum (1440x900)       ok  parada no topo por 4 s: 0 elemento(s) da primeira tela invisível(is)
+desktop comum (1440x900)       ok  salto até o fim: 0 elemento(s) acima da tela invisível(is)
+iphone padrao (390x844)        ok  parada no topo por 4 s: 0 elemento(s) da primeira tela invisível(is)
+iphone padrao (390x844)        ok  salto até o fim: 0 elemento(s) acima da tela invisível(is)
+por item: rolagem contínua a 300 px/s
+desktop comum (1440x900)       ok  0 item(ns) chegam parados
+iphone padrao (390x844)        ok  0 item(ns) chegam parados
+menor suportado (320x568)      ok  0 item(ns) chegam parados
+movimento reduzido: scroll-behavior auto
+movimento reduzido iphone padrao (390x844): 2 animação(ões) em curso
+movimento reduzido desktop comum (1440x900): 2 animação(ões) em curso
+========================================================================================
+  FALHA: movimento reduzido iphone padrao (390x844): 2 animação(ões) ou transição(ões) em curso com prefers-reduced-motion: reduce, acima de 200 ms: animação CSS de traca em path (1800 ms, scrollY 0); animação CSS de desliza em path (1100 ms, scrollY 0). Dentro de @media (prefers-reduced-motion: reduce) ponha animation: none e transition: none nesses elementos (a página aparece no estado final, sem movimento)
+  FALHA: movimento reduzido desktop comum (1440x900): 2 animação(ões) ou transição(ões) em curso com prefers-reduced-motion: reduce, acima de 200 ms: animação CSS de traca em path (1800 ms, scrollY 0); animação CSS de desliza em path (1100 ms, scrollY 0). Dentro de @media (prefers-reduced-motion: reduce) ponha animation: none e transition: none nesses elementos (a página aparece no estado final, sem movimento)
+
+  REPROVA: 2 problema(s) de movimento na visita.
+  Revele só o que entra na tela (IntersectionObserver sem temporizador que revela tudo).
+  Conteúdo continua visível sem JavaScript e com movimento reduzido.
+Conserto: observe cada item (o filho) e não o grupo, para ele entrar animando quando aparece a 300 px/s; ponha a rede de segurança da receita-base no <head>: a classe js posta por script em linha e retirada por temporizador de 5 s se o script principal não confirmar; o que já está na primeira tela entra na carga: não espere o observador para o que está à vista
+
+### simetria (saída 1, 12 s)
+
+GATE DE SIMETRIA  http://127.0.0.1:41519/
+================================================================================
+desktop comum (1440x900)         ok (6 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+notebook comum (1366x768)        ok (6 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 1
+tablet paisagem (1024x768)       FALHA (1) (6 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 2
+tablet retrato (768x1024)        ok (1 aviso(s) de assimetria declarada)
+  medido: maior diferença entre títulos vizinhos 0 px, maior diferença de linhas entre caixas da mesma linha 0
+================================================================================
+  desktop comum (1440x900): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 658) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 534 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 1046) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1337) terminam com 291 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2621) e "Um horário, uma avaliação. D" (último texto p, termina em y 2520) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3131) e "Novo contato. Cada movimenta" (último texto p, termina em y 3384) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 607) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 483 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 943) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1234) terminam com 291 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2518) e "Um horário, uma avaliação. D" (último texto p, termina em y 2417) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3028) e "Novo contato. Cada movimenta" (último texto p, termina em y 3281) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 580) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 456 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 905) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1187) terminam com 282 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2384) e "Um horário, uma avaliação. D" (último texto p, termina em y 2291) terminam com 92 px de diferença [desenho largo e texto estreito, pedido no plano]
+  tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 2882) e "Novo contato. Cada movimenta" (último texto p, termina em y 3107) terminam com 225 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  tablet retrato (768x1024): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 671) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 547 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  FALHA: tablet paisagem (1024x768): faixa de linhas diferente: texto em 4, 3, 3, 5 linhas nas caixas de "Agenda Dia, semana e mês, co" (máximo 1 linha de diferença)
+
+  REPROVA: 1 problema(s) de simetria.
+  Itens paralelos: grade de caixas iguais (mesmo topo, mesma altura, entrada escalonada).
+  Passos e perguntas: título em largura total em cima, itens em grade embaixo.
+  Colunas vizinhas terminam juntas (até 80 px) ou a seção se reestrutura.
+  Cards vizinhos: mesma estrutura por dentro (mídia do mesmo tamanho, título na mesma altura).
+Conserto: prenda o último bloco da coluna curta ao rodapé (margin-top: auto com o grid esticado) ou estique o bloco mais curto até a mesma base; se a assimetria é pedida no plano, declare data-assimetrico="motivo"; deixe o texto das caixas na mesma faixa de linhas (no máximo 1 de diferença): encurte ou iguale as cópias; ponha o título acima da lista ou equilibre as duas colunas
+
+### imagens (saída 1, 7,5 s)
+
+GATE DE IMAGENS  /home/user/projetos/apps/agendaprime-landing
+================================================================================
+  FALHA: marca/Logos/luxxen-logo-dark-bg.svg: sem link da licença (http...)
+  FALHA: og-image.jpg: prévia do link sem aviso de "imagem ilustrativa" (a foto não é do cliente e é a primeira coisa que a visitante vê no WhatsApp)
+  FALHA: og-image.jpg: sem link da licença (http...)
+  FALHA: página: imagem que não é do cliente sem "imagem ilustrativa" no texto publicado
+  FALHA: desktop 1440: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+  FALHA: celular 390: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+
+  REPROVA: 6 problema(s) de licença, imagem ou aviso.
+Conserto: leia as linhas FALHA acima: troque a foto repetida ou borrada, ou complete a licença e o crédito em imagens/LICENCAS.md e no HTML
+
+### texto (saída 1, 7,1 s)
+
+GATE DE TEXTO NA TELA  http://127.0.0.1:36213/
+================================================================================
+desktop comum (1440x900)         ok
+notebook comum (1366x768)        ok
+tablet retrato (768x1024)        ok
+iphone pro max (430x932)         ok
+iphone padrao (390x844)          ok
+android comum (360x740)          ok
+menor suportado (320x568)        FALHA (1)
+================================================================================
+  medido em 1440x900: filetes de enfeite: 0 em 6,29 telas de 900 px (0,00 por tela; máximo 1,20); de tabela (dl, table), fora da conta: 0
+  medido em 1440x900: enfeite de título: nenhum h2 com enfeite; máximo 3
+  FALHA: menor suportado (320x568): viúva: h2 "Sem número inventado." termina com "inventado." sozinha (2 linhas)
+
+  REPROVA: 1 problema(s) de texto na tela.
+  Viúva: text-wrap: balance no título ou ajuste da copy. Minúscula: primeira letra maiúscula
+  em todo item. Itálico colorido: no máximo um trecho na página. Filete: separar por cor e espaço.
+  Enfeite de título: tirar o traço repetido; a hierarquia vem de tamanho, peso e espaço.
+Conserto: leia as linhas FALHA acima, cada uma cita o texto e a largura de tela; reescreva ou ajuste a largura para não deixar palavra sozinha na última linha
+
+### sem-kicker (saída 1, 1,5 s)
+REPROVADO (tell de IA: kicker em caixa alta ou número decorativo):
+  - /home/user/projetos/apps/agendaprime-landing/marca/components/bundle.css: CSS ".lx-eyebrow" é receita de kicker (uppercase + letter-spacing 0.18em)
+Conserto: a seção abre direto no título. Rótulo curto em caixa alta com espaçamento
+largo antes do h1/h2/h3 é a assinatura de página gerada por IA.
+Conserto: tire o rótulo em caixa alta acima do título, a numeração 01/02/03 ou o número gigante citado; diga a ideia no próprio título
+
+Total: 136 s de relógio (soma dos gates: 257 s, 10 gate(s), teto 2).
+RESULTADO: REPROVA em 5 de 10: movimento, simetria, imagens, texto, sem-kicker.
+Corrija TUDO o que está acima e repita só esses:
+  node "/root/.claude/skills/construtor-paginas/scripts/rodar-gates.mjs" --projeto "/home/user/projetos/apps/agendaprime-landing" --reprovados
+Quando tudo passar, faça uma rodada completa (sem --so e sem --reprovados): ela registra sozinha o exit real de cada gate na wave.
+Wave: rodada parcial, não registrei nada. Faça a rodada completa (sem --so nem --reprovados) e ela registra o exit real de cada gate. Para provar só o conserto de uma regressão trivial achada na auditoria, repita com --registrar-conserto: ele grava na wave apenas os gates desta rodada parcial.
+Este comando não aprova nada: grava o exit real que cada gate devolveu, e a decisão de entregar continua sendo do wave.py checar e rodada.

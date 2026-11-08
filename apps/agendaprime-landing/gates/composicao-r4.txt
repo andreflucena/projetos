@@ -1,0 +1,19 @@
+
+GATE DE COMPOSIÇÃO  http://127.0.0.1:42803/
+========================================================================================
+Seções com h2, na ordem da página (desktop 1440):
+   1. topo                                       (sem h2)
+   2. Onde as oportunidades se perdem.           título ao lado do conteúdo + lista
+   3. Quatro telas para a recepção.              título à esquerda + grade de caixas
+   4. Um horário, uma avaliação.                 título à esquerda + split com imagem
+   5. Do primeiro contato ao comparecimento.     título ao lado do conteúdo + lista
+   6. Sem número inventado.                      título à esquerda + grade de caixas
+   7. Perguntas frequentes.                      título centralizado + lista
+   8. Fale com a luxxen.ai.                      título ao lado do conteúdo + texto
+Motivo mais repetido: "feixes de luz violeta e azul" 1 vez(es) (máximo 6); 6 desenho(s) fora de controle, de todo tamanho
+Desenhos SVG medidos: 5; menor contraste de traço fino ou destaque: 4.98:1
+desktop 1440: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: desenho "feixes de luz violeta e azul, uma pessoa da recepç" (606 px à vista)
+celular 390: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: desenho "feixes de luz violeta e azul, uma pessoa da recepç" (200 px à vista)
+========================================================================================
+  PASSA: nenhuma sequência de mais de 2 seções com o mesmo esqueleto, desenhos declarados e próprios.
+

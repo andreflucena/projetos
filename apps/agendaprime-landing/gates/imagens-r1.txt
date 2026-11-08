@@ -1,0 +1,7 @@
+
+GATE DE IMAGENS  /home/user/projetos/apps/agendaprime-landing
+================================================================================
+  FALHA: falta /home/user/projetos/apps/agendaprime-landing/imagens/LICENCAS.md: toda imagem publicada precisa de origem, autor, licença e link
+
+  REPROVA: 1 problema(s) de licença, imagem ou aviso.
+

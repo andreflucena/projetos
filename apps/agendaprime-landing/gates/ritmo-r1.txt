@@ -1,0 +1,24 @@
+
+GATE DE RITMO  http://127.0.0.1:40355/
+========================================================================================
+Esqueleto de cada seção, na ordem da página (desktop 1440):
+   1. Agenda, CRM e confirmações no mesmo flux   título à esquerda + split com desenho
+      como mediu o título: text-align start; 1ª linha de 120 a 634 px, começa a 120 px da borda da seção
+   2. Onde as oportunidades se perdem.           título ao lado do conteúdo + lista
+      como mediu o título: há conteúdo ao lado do título (a partir de 533 px)
+   3. Quatro telas para a recepção.              título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 354 px, começa a 120 px da borda da seção
+   4. Um horário, uma avaliação.                 título à esquerda + split com desenho
+      como mediu o título: text-align start; 1ª linha de 847 a 1066 px, começa a 847 px da borda da seção
+   5. Do primeiro contato ao comparecimento.     título ao lado do conteúdo + lista
+      como mediu o título: há conteúdo ao lado do título (a partir de 533 px)
+   6. Sem número inventado.                      título à esquerda + cartões
+      como mediu o título: text-align start; 1ª linha de 120 a 745 px, começa a 120 px da borda da seção
+   7. Perguntas frequentes.                      título centralizado + lista
+      como mediu o título: text-align center; 1ª linha de 508 a 932 px, centro 720 px (seção: centro 720 px)
+   8. Fale com a luxxen.ai.                      título ao lado do conteúdo + texto
+      como mediu o título: há conteúdo ao lado do título (a partir de 688 px)
+medido: 8 seções; "título centralizado + cartões" em 0 (máximo 1); vizinhas iguais: 0
+========================================================================================
+  PASSA: nenhuma seção vizinha com o mesmo esqueleto e no máximo 1 "título centralizado + cartões".
+

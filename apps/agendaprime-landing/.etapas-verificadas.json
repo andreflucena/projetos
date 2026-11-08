@@ -1,8 +1,15 @@
 {
   "0": {
     "hashes": {
-      "evidencias/briefing.md": "74e4418df1d05265106f6bf74bdbca63d453b838fbe721ed83f577ca837fadfa",
+      "evidencias/briefing.md": "3f5f13fb98ade1971dab24e96cea4c834541ece21335a352e4a16c33d2eb153e",
       "evidencias/etapa-0.json": "75bdd1e8f3548006151663931d9c362c608e29791bb6859f7623a134e13b863e"
+    },
+    "revalidada": {
+      "motivo": "briefing recebeu trechos literais do PRD que sustentam a copy",
+      "arquivos": [
+        "evidencias/briefing.md"
+      ],
+      "quando": "2026-11-08T13:10:52"
     }
   },
   "1": {
@@ -10,6 +17,29 @@
       "referencias/referencias.json": "8fe820509b67661ef7c2ddf5a187595efc7f54f2486572b7afa6c980582a961d",
       "referencias/sintese.md": "28837c449d058bdfdd9cd3b0da8809eb8d72a589275331dc3302d675257f0c0d",
       "evidencias/etapa-1.json": "9c823531923f0034c765ec2195b517b94187270a61c06720618febc213ccbc6b"
+    }
+  },
+  "2": {
+    "hashes": {
+      "plano-visual.md": "e26d9bfc51545d4b1c1ac63f6d244d5a3aadf49bd35cb6dd41de71f596de0845",
+      "PLANO.md": "a3411cc45568b6b85dff59b5cde03b4d9d4e58d444328311454011161a0438ea",
+      "evidencias/etapa-2.json": "1e454957d77b4b81b2a378fe65edb50229ca5825b81e4b364829c562e085b94e"
+    }
+  },
+  "3": {
+    "hashes": {
+      "evidencias/copy.md": "1a509e1a671ec4036b5029cbc3780012078ff99b566944cdc7915acd0c265cea",
+      "evidencias/sustentacao.md": "c8928427b7c60688f63400dad53cc6cac46f2275c1f589291b5cb8e90234cd0a",
+      "evidencias/etapa-3.json": "13a9053714adab3fce76c0879fa971b5bd458d5c48fba19709f27ddb2364869f"
+    }
+  },
+  "4": {
+    "hashes": {
+      "index.html": "b54f3c2e7e74e96cb516fb5704d525796ed4e56e1f123e85d5b3a809e4187d7b",
+      "pagina.css": "4296e5af7f6443d7aea3e8ac777ce5f506c6c9f360c1799b493015ed85a71729",
+      "styles.css": "cea1d4716d8035d54f08a81d77c0fd8c349dbd6d63ab8b830bd47911f649c6cd",
+      "app.js": "a5057b9f48572dd059c3abdce3382f7aee87da6a17ddeaca457e5ed4b75338c5",
+      "evidencias/etapa-4.json": "10981bab52b1c1897c4b5c508b34174ad3f190733ce5d3fd3638426b6907cb15"
     }
   }
 }

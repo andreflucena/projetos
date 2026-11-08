@@ -1,0 +1,48 @@
+
+===== RELATÓRIO DA RODADA 3 =====
+PASSA    movimento         135 s   gates/movimento-r3.txt   (rodou: sem laudo PASSA guardado)
+PASSA    simetria           12 s   gates/simetria-r3.txt   (rodou: sem laudo PASSA guardado)
+REPROVA  imagens           7,5 s   gates/imagens-r3.txt   (saída 1)   (rodou: sem laudo PASSA guardado)
+PASSA    texto             7,1 s   gates/texto-r3.txt   (rodou: sem laudo PASSA guardado)
+PASSA    sem-kicker        1,5 s   gates/sem-kicker-r3.txt   (rodou: sem laudo PASSA guardado)
+
+----- AVISOS dos gates que passaram (não reprovam, mas leia) -----
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 658) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 534 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 1046) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1337) terminam com 291 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2621) e "Um horário, uma avaliação. D" (último texto p, termina em y 2520) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  [simetria] desktop comum (1440x900): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3131) e "Novo contato. Cada movimenta" (último texto p, termina em y 3384) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 607) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 483 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 943) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1234) terminam com 291 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2518) e "Um horário, uma avaliação. D" (último texto p, termina em y 2417) terminam com 101 px de diferença [desenho largo e texto estreito, pedido no plano]
+  [simetria] notebook comum (1366x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3028) e "Novo contato. Cada movimenta" (último texto p, termina em y 3281) terminam com 253 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Onde as oportunidades se per" à esquerda + 4 itens empilhados à direita [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): lista vertical ao lado do título: "Do primeiro contato ao compa" à esquerda + 5 itens empilhados à direita [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 580) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 456 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Onde as oportunidades se per" (último texto h2#t-dor.visivel, termina em y 905) e "A demora no atendimento cust" (base da caixa li.visivel, termina em y 1187) terminam com 282 px de diferença [título à esquerda e lista editorial à direita, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Seg Ter Qua Qui Sex 09h 10h " (último texto figcaption.exemplo, termina em y 2616) e "Um horário, uma avaliação. D" (último texto p, termina em y 2523) terminam com 92 px de diferença [desenho largo e texto estreito, pedido no plano]
+  [simetria] tablet paisagem (1024x768): AVISO (data-assimetrico): colunas desbalanceadas: "Do primeiro contato ao compa" (último texto p.exemplo, termina em y 3114) e "Novo contato. Cada movimenta" (último texto p, termina em y 3339) terminam com 225 px de diferença [título fixo ao lado da linha do tempo, pedido no plano]
+  [simetria] tablet retrato (768x1024): AVISO (data-assimetrico): colunas desbalanceadas: "Agenda, CRM e confirmações n" (último texto p.assina.abertura-entra, termina em y 671) e "DIV" (topo (sem conteúdo medido) div.arte.visivel, termina em y 124) terminam com 547 px de diferença [texto à esquerda e arte decorativa à direita, pedido no plano]
+
+----- FALHAS (texto inteiro de cada gate que reprovou) -----
+
+### imagens (saída 1, 7,5 s)
+
+GATE DE IMAGENS  /home/user/projetos/apps/agendaprime-landing
+================================================================================
+  FALHA: desktop 1440: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+  FALHA: celular 390: foto é 0% da imagem da primeira tela (mínimo 60%): foto real, do cliente ou de banco livre como ponte, antes de ilustração chapada; ilustração só como acento
+
+  REPROVA: 2 problema(s) de licença, imagem ou aviso.
+Conserto: leia as linhas FALHA acima: troque a foto repetida ou borrada, ou complete a licença e o crédito em imagens/LICENCAS.md e no HTML
+
+Total: 135 s de relógio (soma dos gates: 164 s, 5 gate(s), teto 2).
+RESULTADO: REPROVA em 1 de 5: imagens.
+Corrija TUDO o que está acima e repita só esses:
+  node "/root/.claude/skills/construtor-paginas/scripts/rodar-gates.mjs" --projeto "/home/user/projetos/apps/agendaprime-landing" --reprovados
+Quando tudo passar, faça uma rodada completa (sem --so e sem --reprovados): ela registra sozinha o exit real de cada gate na wave.
+Wave: rodada parcial, não registrei nada. Faça a rodada completa (sem --so nem --reprovados) e ela registra o exit real de cada gate. Para provar só o conserto de uma regressão trivial achada na auditoria, repita com --registrar-conserto: ele grava na wave apenas os gates desta rodada parcial.
+Este comando não aprova nada: grava o exit real que cada gate devolveu, e a decisão de entregar continua sendo do wave.py checar e rodada.

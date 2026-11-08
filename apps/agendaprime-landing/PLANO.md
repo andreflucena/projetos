@@ -4,7 +4,7 @@ Pixel pedido: nenhum
 
 Momento assinatura: o cartão de uma avaliação (quinta, 14h) desenhado como exemplo; seções: agenda, como funciona, fecho; estados: marcada -> confirmação solicitada -> confirmada
 
-Ícone do site: o duplo chevron » da luxxen.ai no squircle escuro, a partir do arquivo oficial luxxen-icon-dark.svg
+Ícone do site: o duplo chevron » da luxxen.ai
 
 Material da cliente pedido:
 - Prints reais do AgendaPrime quando existirem (hoje a página usa desenho próprio, marcado como exemplo)
@@ -17,14 +17,14 @@ Material da cliente pedido:
 
 Marque com [x] as que você gosta.
 
-- [ ] Clinicorp (mesmo negócio): ![Clinicorp](referencias/01-clinicorp-com-dobra.png) O que essa faz bem: coloca o formulário de contato logo depois da dobra e diz o que acontece depois de enviar; a tabela "manual contra automatizado" mostra o mecanismo em linhas curtas.
+- [x] Clinicorp (mesmo negócio): ![Clinicorp](referencias/01-clinicorp-com-dobra.png) O que essa faz bem: coloca o formulário de contato logo depois da dobra e diz o que acontece depois de enviar; a tabela "manual contra automatizado" mostra o mecanismo em linhas curtas.
 - [ ] Simples Dental (mesmo negócio): ![Simples Dental](referencias/02-simplesdental-com-dobra.png) O que essa faz bem: dá a cada recurso uma captura do produto e um título de benefício. O que ela faz mal e não levamos: arte promocional lotada e nota com estrelas.
-- [ ] Cal.com (mesmo negócio, agendamento): ![Cal.com](referencias/04-cal-com-dobra.png) O que essa faz bem: elementos pequenos do produto dentro do título (um chip "Booked") mostram o que ele faz sem screenshot; uma ideia por tela, muito respiro.
-- [ ] Attio (design): ![Attio](referencias/07-attio-com-dobra.png) O que essa faz bem: título curto com ponto final e produto em cartões pequenos e legíveis, um por ideia.
-- [ ] Linear (design): ![Linear](referencias/09-linear-app-dobra.png) O que essa faz bem: no tema escuro o produto é o herói, uma janela grande que esmaece nas bordas, com pouquíssimo texto.
+- [x] Cal.com (mesmo negócio, agendamento): ![Cal.com](referencias/04-cal-com-dobra.png) O que essa faz bem: elementos pequenos do produto dentro do título (um chip "Booked") mostram o que ele faz sem screenshot; uma ideia por tela, muito respiro.
+- [x] Attio (design): ![Attio](referencias/07-attio-com-dobra.png) O que essa faz bem: título curto com ponto final e produto em cartões pequenos e legíveis, um por ideia.
+- [x] Linear (design): ![Linear](referencias/09-linear-app-dobra.png) O que essa faz bem: no tema escuro o produto é o herói, uma janela grande que esmaece nas bordas, com pouquíssimo texto.
 - [ ] Stripe (design): ![Stripe](referencias/10-stripe-com-dobra.png) O que essa faz bem: uma única forma de luz entrando pelo canto como elemento decorativo. Cuidado: ela passa por trás do texto, o que a luxxen.ai proíbe.
-- [ ] Vercel (design): ![Vercel](referencias/11-vercel-com-dobra.png) O que essa faz bem: o símbolo da marca é a única imagem da dobra, com luz suave, e uma lista de três linhas diz o que o produto faz.
-- [ ] Notion (design): ![Notion](referencias/12-notion-com-dobra.png) O que essa faz bem: uma palavra do título em pílula colorida já basta como destaque; mosaico de cartões de tamanhos diferentes evita o molde repetido.
+- [x] Vercel (design): ![Vercel](referencias/11-vercel-com-dobra.png) O que essa faz bem: o símbolo da marca é a única imagem da dobra, com luz suave, e uma lista de três linhas diz o que o produto faz.
+- [x] Notion (design): ![Notion](referencias/12-notion-com-dobra.png) O que essa faz bem: uma palavra do título em pílula colorida já basta como destaque; mosaico de cartões de tamanhos diferentes evita o molde repetido.
 
 ## b. Visual
 
@@ -49,7 +49,7 @@ As três lado a lado: ![Comparação](plano/direcoes.png)
 
 Minha recomendação: A na primeira dobra (é o rosto da marca no tema escuro, e a luz do chevron é o motivo "fluxo e movimento"), com o fluxo de etapas da C aparecendo na seção "Como funciona" e o cartão de avaliação da B como momento assinatura. Dobra escura e página interna clara também é uso previsto pelo design system.
 
-Escolha: [ ] A  [ ] B  [ ] C  [ ] misturar: <o quê de cada>
+Escolha: [ ] A  [ ] B  [ ] C  [x] misturar: A na primeira dobra e no tema escuro da página inteira; o fluxo de etapas com » da C na seção Como funciona; o cartão da avaliação da B como momento assinatura (em versão escura)
 
 ## c. Seções
 
@@ -106,7 +106,7 @@ Escolha: [ ] A  [ ] B  [ ] C  [ ] misturar: <o quê de cada>
 | Quatro telas do produto | Título em largura total e quatro caixas iguais com desenho próprio | Carrossel horizontal com encaixe, uma caixa por vez | traco-que-se-desenha: o desenho de cada caixa se traça ao entrar |
 | Agenda, o mecanismo | Desenho da agenda semanal largo à esquerda, texto estreito à direita, assimétrico | Texto primeiro e o desenho da agenda embaixo, em largura total | assinatura: o cartão da avaliação de quinta, 14h aparece marcado na grade |
 | Como funciona | Título fixo à esquerda e linha do tempo de cinco marcos à direita, assimétrico | Título e marcos em coluna única, linha vertical | titulo-fixo: o título fica fixo enquanto os marcos sobem; o cartão passa a confirmação solicitada |
-| Limites do produto | Faixa cheia com uma frase e três limites curtos | Faixa cheia, uma frase por vez | painel-de-cor: o fundo passa de Midnight para um painel violeta ao entrar |
+| Limites do produto | Faixa cheia com uma frase e três limites curtos | Faixa cheia, uma frase por vez | revelar-ao-entrar: cada limite entra quando ele chega na tela |
 | Perguntas | Coluna centrada com seis perguntas | Coluna única, perguntas largas para o toque | pergunta-que-abre: a resposta abre ao clique |
 | Fale com a luxxen.ai | Texto à esquerda, formulário de três campos à direita | Formulário em largura total, botão de 48 px | assinatura: o cartão chega a confirmada quando o formulário é enviado; botao-com-seta no envio |
 
@@ -161,9 +161,9 @@ Domínio final: a definir
 
 ## g. Aprovação
 
-- [ ] a. Referências
-- [ ] b. Visual
-- [ ] c. Seções
-- [ ] d. Copy
-- [ ] e. Pixel e rastreamento
-- [ ] f. Código e publicação
+- [x] a. Referências
+- [x] b. Visual
+- [x] c. Seções
+- [x] d. Copy
+- [x] e. Pixel e rastreamento
+- [x] f. Código e publicação

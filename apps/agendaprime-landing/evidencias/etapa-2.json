@@ -1,0 +1,27 @@
+{
+ "direcao": "Escuro da marca com luz violeta e azul que vira o chevron laranja; produto mostrado por cartões desenhados, pouco texto, títulos com ponto final (mistura A, C e B aprovada no PLANO)",
+ "tipografia": "Plus Jakarta Sans variável 400 a 800, local. Display 72/76 peso 800 na dobra, h2 32/40 peso 700, corpo 18/28 e 16/24, legenda 13/18. Sem itálico",
+ "paleta": "Midnight #0B0F1A, Painel #11162A, Violeta #7C3AED, Azul #60A5FA, Laranja Lux #FF6B1A, Texto #F5F6FA e apoio #A7AEC2",
+ "imagem": "Sem foto de pessoa, clínica ou print real. Chevron grande e linhas de luz na dobra, e o produto desenhado em HTML e SVG próprios, cada desenho com a legenda Exemplo ilustrativo",
+ "ritmo": "Dobra arejada, dor em lista, quatro telas em caixas iguais, agenda assimétrica, linha do tempo com título fixo, faixa de limites, FAQ centrado e fecho com formulário; nenhum esqueleto repetido em vizinhas",
+ "assinatura": "O cartão da avaliação de quinta, 14h que passa de marcada a confirmação solicitada a confirmada ao longo da página",
+ "referencias_usadas": ["Linear", "Attio", "Clinicorp", "Notion", "Cal.com", "Vercel"],
+ "foto_publico": [{"publico": "Gestor da clínica de odontologia estética", "foto": "nenhuma foto de pessoa", "porque": "O PRD não traz foto nem autorização de imagem; o produto desenhado é a imagem"}],
+ "secoes": [
+  {"secao": "Primeira dobra", "tratamento": "tipográfica com chevron grande à direita", "referencia": "Vercel e Stripe, luz e símbolo como única imagem"},
+  {"secao": "Dor", "tratamento": "lista editorial com título ao lado", "referencia": "Attio, frases curtas com ponto final"},
+  {"secao": "Quatro telas do produto", "tratamento": "caixas iguais com desenho próprio", "referencia": "Simples Dental, um recurso por cartão com imagem do produto"},
+  {"secao": "Agenda, o mecanismo", "tratamento": "split assimétrico com desenho largo e texto estreito", "referencia": "Linear, produto grande que esmaece nas bordas"},
+  {"secao": "Como funciona", "tratamento": "linha do tempo com título fixo", "referencia": "Clinicorp, tabela manual contra automatizado como sequência clara"},
+  {"secao": "Limites do produto", "tratamento": "faixa cheia com uma frase", "referencia": "Notion, uma ideia por tela com destaque de cor na frase"},
+  {"secao": "Perguntas", "tratamento": "coluna centrada abrindo ao clique", "referencia": "Cal.com, muito respiro e uma ideia por tela"},
+  {"secao": "Fale com a luxxen.ai", "tratamento": "split de contato com formulário em painel", "referencia": "Clinicorp, formulário que diz o que acontece depois de enviar"}
+ ],
+ "icones": [
+  {"secao": "Quatro telas do produto", "desenha": "Horários da semana: grade de cinco colunas com um bloco tracejado de bloqueio e um horário marcado"},
+  {"secao": "Quatro telas do produto", "desenha": "CRM: cinco colunas do funil com um cartão atravessando de uma coluna para a seguinte"},
+  {"secao": "Quatro telas do produto", "desenha": "Confirmações: uma linha de tempo com o marco das dez horas da quarta apontando para o cartão de quinta"},
+  {"secao": "Quatro telas do produto", "desenha": "Indicadores: barras de alturas diferentes sobre uma linha de base e uma linha que as atravessa"}
+ ],
+ "arquivos": ["plano-visual.md", "PLANO.md"]
+}

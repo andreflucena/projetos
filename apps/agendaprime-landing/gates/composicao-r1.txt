@@ -1,0 +1,23 @@
+
+GATE DE COMPOSIÇÃO  http://127.0.0.1:46097/
+========================================================================================
+Seções com h2, na ordem da página (desktop 1440):
+   1. topo                                       (sem h2)
+   2. Onde as oportunidades se perdem.           título ao lado do conteúdo + lista
+   3. Quatro telas para a recepção.              título à esquerda + grade de caixas
+   4. Um horário, uma avaliação.                 título à esquerda + split com imagem
+   5. Do primeiro contato ao comparecimento.     título ao lado do conteúdo + lista
+   6. Sem número inventado.                      título à esquerda + lista
+   7. Perguntas frequentes.                      título centralizado + lista
+   8. Fale com a luxxen.ai.                      título ao lado do conteúdo + texto
+Motivo mais repetido: "feixes de luz violeta e azul e" 1 vez(es) (máximo 6); 6 desenho(s) fora de controle, de todo tamanho
+Desenhos SVG medidos: 5; menor contraste de traço fino ou destaque: 6.58:1
+desktop 1440: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: nenhuma
+celular 390: linha do tempo passa do último marco em até 0 px; pessoa na primeira tela: nenhuma
+========================================================================================
+  FALHA: desenho "cinco barras de alturas diferentes sobre uma linha de base e uma linha que atravessa o topo das barras" lê como wireframe: 6 de 7 traços são retas alinhadas e retângulos: ninguém do público lê um retângulo; desenhe a cena (pessoa, aparelho com volume, gesto)
+  FALHA: desktop 1440: nenhuma figura humana na primeira tela para um público de pessoas ("Gestor ou proprietário de clínica de odontologia estética premium; no dia a dia, administrador e recepção (PRD 1.4)"): foto real com autorização ou ilustração própria com data-figura="pessoa" (0 figura(s) na página inteira)
+  FALHA: celular 390: nenhuma figura humana na primeira tela para um público de pessoas ("Gestor ou proprietário de clínica de odontologia estética premium; no dia a dia, administrador e recepção (PRD 1.4)"): foto real com autorização ou ilustração própria com data-figura="pessoa" (0 figura(s) na página inteira)
+
+  REPROVA: 3 problema(s) de composição.
+

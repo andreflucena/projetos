@@ -1,0 +1,22 @@
+
+GATE DA PASTA DE PUBLICAÇÃO  /home/user/projetos/apps/agendaprime-landing/dist
+============================================================================
+  FALHA: comentário interno no style publicado: "tokens.css equivalente, gerado de marca/tokens.json (o tokens.css oficial não foi entregue" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "luxxen.ai — componentes em CSS puro. Requer tokens.css e Plus Jakarta Sans." (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "cabeçalho (não fixo)" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "primeira dobra" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "dor" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "quatro telas" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "agenda" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "como funciona" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "limites" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "perguntas" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "fecho" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "rodapé" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "barra fixa do celular" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "movimento (estado escondido só atrás de .js)" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+  FALHA: comentário interno no style publicado: "celular e tablet" (página pública não expõe a casa; tire do arquivo que vai para o ar)
+
+  REPROVA: 15 item(ns) que não são página. O deploy sai de dist/, montada
+  por node /root/.claude/skills/construtor-paginas/scripts/py.mjs montar-dist.py, nunca da pasta do projeto.
+

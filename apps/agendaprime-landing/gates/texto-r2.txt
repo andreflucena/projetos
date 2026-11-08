@@ -1,0 +1,20 @@
+
+GATE DE TEXTO NA TELA  http://127.0.0.1:36213/
+================================================================================
+desktop comum (1440x900)         ok
+notebook comum (1366x768)        ok
+tablet retrato (768x1024)        ok
+iphone pro max (430x932)         ok
+iphone padrao (390x844)          ok
+android comum (360x740)          ok
+menor suportado (320x568)        FALHA (1)
+================================================================================
+  medido em 1440x900: filetes de enfeite: 0 em 6,29 telas de 900 px (0,00 por tela; máximo 1,20); de tabela (dl, table), fora da conta: 0
+  medido em 1440x900: enfeite de título: nenhum h2 com enfeite; máximo 3
+  FALHA: menor suportado (320x568): viúva: h2 "Sem número inventado." termina com "inventado." sozinha (2 linhas)
+
+  REPROVA: 1 problema(s) de texto na tela.
+  Viúva: text-wrap: balance no título ou ajuste da copy. Minúscula: primeira letra maiúscula
+  em todo item. Itálico colorido: no máximo um trecho na página. Filete: separar por cor e espaço.
+  Enfeite de título: tirar o traço repetido; a hierarquia vem de tamanho, peso e espaço.
+

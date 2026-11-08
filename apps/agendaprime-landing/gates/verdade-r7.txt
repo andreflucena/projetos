@@ -1,0 +1,7 @@
+
+GATE DE VERDADE (frase da página -> linha do briefing)  /home/user/projetos/apps/agendaprime-landing
+============================================================================
+  AVISO: 26 linha(s) da sustentacao.md não estão na tabela da seção d do PLANO (copy final, FAQ e rótulos entram na sustentacao.md; atualize o PLANO se a copy mudou), ex.: "Agenda, CRM e confirmações"
+  AVISO: 16 frase(s) da tabela do PLANO não estão na sustentacao.md (a copy mudou depois do plano?), ex.: "Agenda, CRM e confirmações no mesmo fluxo."
+  PASSA: toda promessa tem linha no briefing e nenhuma frase insinua pendência.
+

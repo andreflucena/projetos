@@ -1,0 +1,11 @@
+
+GATE DE SEO  /home/user/projetos/apps/agendaprime-landing/dist  (modo prévia)
+============================================================================
+  index.html: 525 palavras no HTML cru
+REPROVA: robots.txt ausente [arquivo: /home/user/projetos/apps/agendaprime-landing/dist/robots.txt]
+PENDÊNCIA: meta robots "noindex, nofollow" sai no domínio final (página de teste nasce com noindex) [arquivo: /home/user/projetos/apps/agendaprime-landing/dist/index.html]
+PENDÊNCIA: canonical ausente: entra no domínio final, absoluto e igual à URL final [arquivo: /home/user/projetos/apps/agendaprime-landing/dist/index.html]
+PENDÊNCIA: og:image "og-image.jpg" é relativa: vira endereço https:// absoluto no domínio final [arquivo: /home/user/projetos/apps/agendaprime-landing/dist/index.html]
+PENDÊNCIA: sitemap.xml ausente: gere com gerar-seo.py quando houver a URL final [arquivo: /home/user/projetos/apps/agendaprime-landing/dist/sitemap.xml]
+PENDÊNCIA: 404.html ausente: no Cloudflare Pages é ele que faz a URL inexistente dar 404; sem ele devolve a home com 200 (soft 404, sales 27/10/2026) [arquivo: /home/user/projetos/apps/agendaprime-landing/dist/404.html]
+SEO: gate-seo reprova no modo prévia | palavras no HTML cru 525 | pendências: meta robots, canonical, og:image, sitemap.xml, 404.html

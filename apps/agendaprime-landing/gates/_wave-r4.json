@@ -1,0 +1,84 @@
+{
+  "gates": [
+    {
+      "nome": "movimento",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA, laudo da rodada 3 reaproveitado do cache, entrada idêntica (gates/movimento-r4.txt)"
+    },
+    {
+      "nome": "responsivo",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 85 s (gates/responsivo-r4.txt)"
+    },
+    {
+      "nome": "oclusao",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 11 s (gates/oclusao-r4.txt)"
+    },
+    {
+      "nome": "simetria",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA, laudo da rodada 3 reaproveitado do cache, entrada idêntica (gates/simetria-r4.txt)"
+    },
+    {
+      "nome": "composicao",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 8,6 s (gates/composicao-r4.txt)"
+    },
+    {
+      "nome": "imagens",
+      "exit": 1,
+      "detalhe": "rodar-gates r4: REPROVA (saída 1) em 7,5 s (gates/imagens-r4.txt)"
+    },
+    {
+      "nome": "texto",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA, laudo da rodada 3 reaproveitado do cache, entrada idêntica (gates/texto-r4.txt)"
+    },
+    {
+      "nome": "ritmo",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 3,9 s (gates/ritmo-r4.txt)"
+    },
+    {
+      "nome": "sem-kicker",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA, laudo da rodada 3 reaproveitado do cache, entrada idêntica (gates/sem-kicker-r4.txt)"
+    },
+    {
+      "nome": "classes-mortas",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 0,1 s (gates/classes-mortas-r4.txt)"
+    },
+    {
+      "nome": "verdade",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 0,1 s (gates/verdade-r4.txt)"
+    },
+    {
+      "nome": "publicacao",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 0,1 s (gates/publicacao-r4.txt)"
+    },
+    {
+      "nome": "rastreamento",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 0,1 s (gates/rastreamento-r4.txt)"
+    },
+    {
+      "nome": "seo",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 0,1 s (gates/seo-r4.txt)"
+    },
+    {
+      "nome": "plano",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 0,1 s (gates/plano-r4.txt)"
+    },
+    {
+      "nome": "referencias",
+      "exit": 0,
+      "detalhe": "rodar-gates r4: PASSA em 0,2 s (gates/referencias-r4.txt)"
+    }
+  ]
+}
