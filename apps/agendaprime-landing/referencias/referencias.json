@@ -1,0 +1,245 @@
+{
+  "referencias": [
+    {
+      "url": "https://www.clinicorp.com",
+      "tipo": "mesmo-negocio",
+      "titulo": "O software odontológico para clínicas e consultórios | Clinicorp",
+      "prints": {
+        "dobra": "referencias/01-clinicorp-com-dobra.png",
+        "meio": "referencias/01-clinicorp-com-meio.png"
+      },
+      "altura_pagina": 16899,
+      "captura": {
+        "estado": "ok",
+        "motivo": "",
+        "http": 200,
+        "cobertura": 0,
+        "aviso_fechado": false,
+        "dominancia_dobra": 0.17,
+        "dominancia_meio": 0.62,
+        "imagens_sem_carregar": 0,
+        "meio_igual_dobra": false
+      },
+      "capturado_em": "2026-11-08T12:52:47",
+      "faz_bem": {
+        "composicao": "Dobra escura centrada: título, subtítulo, botão único \"Fale com um especialista\". Logo abaixo, um cartão branco \"Comece agora\" com formulário ao lado de uma foto. No meio, tabela de três colunas (tarefa, jeito manual, jeito automatizado) e abas.",
+        "tipografia": "Sans em peso forte, título em duas linhas com um número gigante laranja (campanha de desconto, que não serve para nós). Texto de apoio claro e legível sobre fundo escuro.",
+        "imagem": "Foto de profissional no formulário e captura de tela do sistema em moldura, esmaecida. Pouca foto na dobra.",
+        "ritmo": "Dobra, formulário, tabela comparativa, abas com recurso e depoimento. Bem denso, mas com blocos separados por fios."
+      },
+      "principio": "Colocar o formulário de contato visível logo depois da dobra e dizer o que acontece depois de enviar (\"um especialista entrará em contato\"). A tabela \"manual contra automatizado\" mostra o mecanismo em linhas curtas.",
+      "lido": true
+    },
+    {
+      "url": "https://www.simplesdental.com",
+      "tipo": "mesmo-negocio",
+      "titulo": "Simples Dental - O melhor Software Odontológico do Brasil",
+      "prints": {
+        "dobra": "referencias/02-simplesdental-com-dobra.png",
+        "meio": "referencias/02-simplesdental-com-meio.png"
+      },
+      "altura_pagina": 9112,
+      "captura": {
+        "estado": "ok",
+        "motivo": "",
+        "http": 200,
+        "cobertura": 0.08,
+        "aviso_fechado": true,
+        "dominancia_dobra": 0.31,
+        "dominancia_meio": 0.49,
+        "imagens_sem_carregar": 0,
+        "meio_igual_dobra": false
+      },
+      "capturado_em": "2026-11-08T12:52:57",
+      "faz_bem": {
+        "composicao": "Dobra dividida: texto à esquerda, montagem de arte promocional à direita, dois botões e uma linha de prova. Faixa de notas logo abaixo. No meio, três cards com captura do produto e uma faixa azul de chamada.",
+        "tipografia": "Sans arredondada, título de duas linhas com a primeira palavra leve e o resto em negrito. Escala clara entre título, apoio e botão.",
+        "imagem": "Arte promocional carregada de texto e rostos, de banco. Mais ruído do que ajuda na dobra; as capturas do produto no meio funcionam melhor.",
+        "ritmo": "Dobra, prova com números, cards de recurso, faixa de chamada. Ritmo repetido de card com imagem em cima e título embaixo."
+      },
+      "principio": "Cada recurso ganha uma captura do produto e um título de benefício. Evitar o que ela faz mal: arte promocional lotada na dobra e nota/estrela, que nós não temos.",
+      "lido": true
+    },
+    {
+      "url": "https://cal.com",
+      "tipo": "mesmo-negocio",
+      "titulo": "Cal.com | Scheduling Software for Online Bookings",
+      "prints": {
+        "dobra": "referencias/04-cal-com-dobra.png",
+        "meio": "referencias/04-cal-com-meio.png"
+      },
+      "altura_pagina": 15664,
+      "captura": {
+        "estado": "ok",
+        "motivo": "",
+        "http": 200,
+        "cobertura": 0,
+        "aviso_fechado": false,
+        "dominancia_dobra": 0.69,
+        "dominancia_meio": 0.49,
+        "imagens_sem_carregar": 0,
+        "meio_igual_dobra": false
+      },
+      "capturado_em": "2026-11-08T12:52:57",
+      "faz_bem": {
+        "composicao": "Dobra centrada em fundo claro com título gigante em duas linhas, subtítulo de uma linha, dois botões e uma janela do produto cortada na borda inferior. No meio, título grande à esquerda e um bloco de depoimento com imagem.",
+        "tipografia": "Sans geométrica em peso extra e espaçamento apertado, escala enorme, título com chips e miniaturas inseridos na frase (reserva \"Booked\", relógio UTC).",
+        "imagem": "Fotos tramadas em meio-tom, usadas como textura, não como retrato. O produto aparece como janela do sistema operacional.",
+        "ritmo": "Muito respiro vertical, uma ideia por tela, blocos largos de cantos suaves."
+      },
+      "principio": "Elementos pequenos do produto dentro do título (um chip \"Avaliação marcada\") mostram o que o produto faz sem precisar de screenshot. Uma ideia por tela, com muito respiro.",
+      "lido": true
+    },
+    {
+      "url": "https://attio.com",
+      "tipo": "design",
+      "titulo": "Attio: The CRM for agentic revenue",
+      "prints": {
+        "dobra": "referencias/07-attio-com-dobra.png",
+        "meio": "referencias/07-attio-com-meio.png"
+      },
+      "altura_pagina": 17599,
+      "captura": {
+        "estado": "ok",
+        "motivo": "",
+        "http": 200,
+        "cobertura": 0,
+        "aviso_fechado": true,
+        "dominancia_dobra": 0.59,
+        "dominancia_meio": 0.83,
+        "imagens_sem_carregar": 0,
+        "meio_igual_dobra": false
+      },
+      "capturado_em": "2026-11-08T12:53:32",
+      "faz_bem": {
+        "composicao": "Dobra clara e centrada: um aviso curto, título de uma linha terminando em ponto, apoio em cinza, dois botões e a janela do produto surgindo de um brilho lilás. No meio, grade de linhas finas com cartões do produto.",
+        "tipografia": "Sans neutra, título em peso médio com ponto final, apoio em cinza médio. Frase de duas cores no meio (\"Live from day one.\" em escuro, o resto em cinza).",
+        "imagem": "Só interface do produto, em cartões leves, sem foto de pessoa.",
+        "ritmo": "Seções separadas por grade de fios finos; cada bloco tem um cartão de produto e uma frase curta."
+      },
+      "principio": "Título curto com ponto final, igual à voz da luxxen.ai. Mostrar o produto em cartões pequenos e legíveis (um por ideia) em vez de uma tela enorme.",
+      "lido": true
+    },
+    {
+      "url": "https://linear.app",
+      "tipo": "design",
+      "titulo": "Linear – The system for product development",
+      "prints": {
+        "dobra": "referencias/09-linear-app-dobra.png",
+        "meio": "referencias/09-linear-app-meio.png"
+      },
+      "altura_pagina": 9960,
+      "captura": {
+        "estado": "ok",
+        "motivo": "",
+        "http": 200,
+        "cobertura": 0.08,
+        "aviso_fechado": false,
+        "dominancia_dobra": 0.51,
+        "dominancia_meio": 0.65,
+        "imagens_sem_carregar": 0,
+        "meio_igual_dobra": false
+      },
+      "capturado_em": "2026-11-08T12:57:45",
+      "faz_bem": {
+        "composicao": "Dobra escura com título grande em duas linhas à esquerda, subtítulo cinza e, logo abaixo, a janela do produto ocupando a largura inteira. O meio mostra um gráfico e um cronograma em painéis que somem nas bordas.",
+        "tipografia": "Sans limpa, título branco em peso médio, navegação discreta em cinza.",
+        "imagem": "Só o produto, desenhado em tons de cinza com um acento (verde-água nos pontos do gráfico). A imagem some nas bordas em degradê.",
+        "ritmo": "Escuro contínuo, painéis grandes, pouquíssimo texto por tela."
+      },
+      "principio": "No tema escuro o produto é o herói: uma única janela grande, esmaecendo nas bordas, com contraste só no centro. Menos texto, mais produto.",
+      "lido": true
+    },
+    {
+      "url": "https://stripe.com",
+      "tipo": "design",
+      "titulo": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "prints": {
+        "dobra": "referencias/10-stripe-com-dobra.png",
+        "meio": "referencias/10-stripe-com-meio.png"
+      },
+      "altura_pagina": 15000,
+      "captura": {
+        "estado": "ok",
+        "motivo": "",
+        "http": 200,
+        "cobertura": 0,
+        "aviso_fechado": false,
+        "dominancia_dobra": 0.6,
+        "dominancia_meio": 0.47,
+        "imagens_sem_carregar": 0,
+        "meio_igual_dobra": false
+      },
+      "capturado_em": "2026-11-08T12:57:57",
+      "faz_bem": {
+        "composicao": "Dobra clara: título longo de quatro linhas em azul-escuro e cinza-azulado, dois botões e uma faixa de logos. A faixa de luz colorida entra pelo canto superior direito e passa por trás do texto.",
+        "tipografia": "Sans de leitura fácil, título em duas cores (primeira frase escura, o resto em cinza-azulado). Botão primário em violeta-azulado.",
+        "imagem": "Faixa de luz em degradê (laranja, rosa, violeta) como único elemento gráfico. Cards de história com ilustração forte no meio da página.",
+        "ritmo": "Seções separadas por fios verticais finos e faixas de logos."
+      },
+      "principio": "Uma única forma de luz vindo do canto como elemento decorativo, com o texto à esquerda e legível. Combina com o feixe violeta e azul da luxxen.ai. Cuidado: a faixa passa por trás do texto, o que a marca proíbe.",
+      "lido": true
+    },
+    {
+      "url": "https://vercel.com",
+      "tipo": "design",
+      "titulo": "Agentic Infrastructure - Vercel",
+      "prints": {
+        "dobra": "referencias/11-vercel-com-dobra.png",
+        "meio": "referencias/11-vercel-com-meio.png"
+      },
+      "altura_pagina": 5333,
+      "captura": {
+        "estado": "ok",
+        "motivo": "",
+        "http": 200,
+        "cobertura": 0,
+        "aviso_fechado": false,
+        "dominancia_dobra": 0.91,
+        "dominancia_meio": 0.89,
+        "imagens_sem_carregar": 0,
+        "meio_igual_dobra": false,
+        "aviso": "a primeira dobra tem 91% de uma cor só: abra o PNG antes de gastar leitura"
+      },
+      "capturado_em": "2026-11-08T12:57:55",
+      "faz_bem": {
+        "composicao": "Dobra clara e vazia: título à esquerda, dois botões, um triângulo preto com halo no centro e uma lista de três linhas à direita. Faixa de logos na base. No meio, texto à esquerda e uma captura de site à direita.",
+        "tipografia": "Sans leve, título grande em peso regular, lista em tamanho pequeno.",
+        "imagem": "O símbolo da marca como única imagem, com sombra suave. Depois, capturas reais de sites de clientes.",
+        "ritmo": "Três colunas na dobra, muito branco, blocos assimétricos (texto estreito, imagem larga) no meio."
+      },
+      "principio": "O símbolo da marca (o » no nosso caso) pode ser a imagem da dobra, sozinho e com luz suave, e uma lista de três linhas diz o que o produto faz. Seções assimétricas em vez de cartões centralizados.",
+      "lido": true
+    },
+    {
+      "url": "https://www.notion.com",
+      "tipo": "design",
+      "titulo": "The AI workspace that works for you. | Notion",
+      "prints": {
+        "dobra": "referencias/12-notion-com-dobra.png",
+        "meio": "referencias/12-notion-com-meio.png"
+      },
+      "altura_pagina": 4731,
+      "captura": {
+        "estado": "ok",
+        "motivo": "",
+        "http": 200,
+        "cobertura": 0,
+        "aviso_fechado": false,
+        "dominancia_dobra": 0.73,
+        "dominancia_meio": 0.77,
+        "imagens_sem_carregar": 0,
+        "meio_igual_dobra": false
+      },
+      "capturado_em": "2026-11-08T12:58:05",
+      "faz_bem": {
+        "composicao": "Dobra clara e centrada: título gigante em duas linhas com uma pílula colorida (\"Create\") dentro da frase, apoio, dois botões e a janela do produto subindo, com doodles desenhados à mão. Faixa de logos. No meio, cartões grandes lado a lado com cenas do produto.",
+        "tipografia": "Sans de grande personalidade em peso extra, título preto com uma única palavra em pílula laranja-clara. Botões azuis arredondados.",
+        "imagem": "Cartões ilustrados do produto em uso, com desenhos de traço fino. Nenhum retrato.",
+        "ritmo": "Dobra enorme, depois mosaico de cartões de proporções diferentes (não todos iguais)."
+      },
+      "principio": "Uma única palavra do título em destaque de cor (pílula) já basta, como o laranja da luxxen.ai. Mosaico de cartões de tamanhos diferentes mostra várias partes do produto sem repetir o molde.",
+      "lido": true
+    }
+  ]
+}

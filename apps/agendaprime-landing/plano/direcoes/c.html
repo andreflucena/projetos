@@ -1,0 +1,39 @@
+<!doctype html><html lang="pt-BR" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Direção C</title>
+<link rel="stylesheet" href="base.css">
+<style>
+body{min-height:100vh;background:
+ radial-gradient(700px 420px at 50% 0%,var(--glow-tint-violet),transparent 70%),var(--surface)}
+.net{position:absolute;inset:0;pointer-events:none;opacity:.5}
+.hero{position:relative;text-align:center;padding:var(--space-12) var(--space-6) 0}
+h1{position:relative;font-size:60px;line-height:66px;font-weight:800;letter-spacing:-.03em;max-width:14em;margin:0 auto}
+h1 .chipin{display:inline-block;padding:0 .3em;border-radius:var(--radius-pill);background:var(--primary);color:var(--on-primary);font-size:.78em;line-height:1.1;vertical-align:.08em}
+.sub{position:relative;margin:var(--space-6) auto 0;font-size:18px;line-height:28px;color:var(--ink-muted);max-width:34em}
+.cta{position:relative;margin-top:var(--space-8);display:flex;gap:var(--space-3);justify-content:center;flex-wrap:wrap}
+.lx-btn{height:48px}
+.flow{position:relative;margin:var(--space-12) auto 0;display:flex;justify-content:center;gap:var(--space-3);flex-wrap:wrap}
+.kan{position:relative;margin:var(--space-6) auto 0;max-width:1180px;display:grid;grid-template-columns:repeat(5,1fr);gap:var(--space-3);
+ -webkit-mask-image:linear-gradient(#000 40%,transparent);mask-image:linear-gradient(#000 40%,transparent);text-align:left}
+.col{background:var(--surface-raised);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--space-4);height:150px}
+.col b{font-size:13px;color:var(--ink-muted)}
+.card{margin-top:var(--space-3);background:var(--surface);border:1px solid var(--border);border-radius:8px;height:34px}
+@media (max-width:760px){
+ .hero{padding:var(--space-4) var(--space-4) 0}h1{font-size:36px;line-height:40px}.sub{font-size:16px;line-height:24px}
+ .cta .lx-btn{width:100%;justify-content:center}
+ .flow{display:none}.kan{grid-template-columns:repeat(2,1fr);margin-top:var(--space-8)}.col:nth-child(n+3){display:none}
+}
+</style></head><body>
+<svg class="net" viewBox="0 0 1440 520" preserveAspectRatio="none" aria-hidden="true"><g stroke="#60a5fa" stroke-opacity=".35" fill="#a78bfa"><path d="M120 90L340 150L560 70L800 160L1040 80L1300 140" fill="none"/><path d="M340 150L420 300L800 160L900 300" fill="none"/><circle cx="120" cy="90" r="3"/><circle cx="340" cy="150" r="3"/><circle cx="560" cy="70" r="3"/><circle cx="800" cy="160" r="3"/><circle cx="1040" cy="80" r="3"/><circle cx="1300" cy="140" r="3"/><circle cx="420" cy="300" r="3"/><circle cx="900" cy="300" r="3"/></g></svg>
+<header class="nav" style="position:relative"><img src="../../marca/Logos/luxxen-logo-dark-bg.svg" alt="luxxen.ai"><nav class="nav-links"><a href="#">Como funciona</a><a href="#">Perguntas</a><a class="lx-btn lx-btn-secondary lx-btn-sm" href="#">Falar com a luxxen.ai</a></nav></header>
+<main class="hero">
+ <h1>Do primeiro contato à avaliação <span class="chipin">realizada.</span></h1>
+ <p class="sub">O AgendaPrime™ acompanha cada interessado pelo funil, marca a avaliação na agenda e registra cada passo para a recepção.</p>
+ <div class="cta"><a class="lx-btn lx-btn-primary" href="#">Falar com a luxxen.ai <span>»</span></a><a class="lx-btn lx-btn-secondary" href="#">Ver como funciona</a></div>
+ <div class="flow" aria-hidden="true"><span class="lx-step">Novo contato</span><span class="lx-step-sep">»</span><span class="lx-step">Em qualificação</span><span class="lx-step-sep">»</span><span class="lx-step">Qualificado</span><span class="lx-step-sep">»</span><span class="lx-step lx-step-hot">Avaliação agendada</span><span class="lx-step-sep">»</span><span class="lx-step">Avaliação realizada</span></div>
+ <div class="kan" aria-hidden="true">
+  <div class="col"><b>Novo contato</b><div class="card"></div><div class="card"></div></div>
+  <div class="col"><b>Em qualificação</b><div class="card"></div></div>
+  <div class="col"><b>Qualificado</b><div class="card"></div><div class="card"></div></div>
+  <div class="col"><b>Avaliação agendada</b><div class="card"></div></div>
+  <div class="col"><b>Avaliação realizada</b><div class="card"></div></div>
+ </div>
+</main></body></html>

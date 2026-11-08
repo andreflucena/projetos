@@ -1,0 +1,59 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>luxxen.ai</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--surface); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; width:960px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .violet { fill:var(--violet); }
+  .blue { fill:var(--electric-blue); }
+  .orange { fill:var(--accent-orange); }
+  .graphite { fill:var(--graphite); }
+  .cloud { fill:var(--cloud); }
+  [data-theme="light"] .cloud { fill:var(--midnight); }
+  .mark { fill:var(--cloud); }
+  .cut { fill:var(--surface); }
+  .blk { rx:var(--radius-md); }
+  .words { position:absolute; left:var(--space-8); bottom:var(--space-8); max-width:440px; }
+  .name { margin:0; font-size:80px; line-height:.92; font-weight:800; letter-spacing:-.03em; color:var(--ink); }
+  .tag { margin:var(--space-3) 0 0 4px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      violet 168×228 bled off the top (inovação, the brand's lead hue) · electric-blue 144×168 · graphite 128×144 bled off the right edge · cloud 72×80 (midnight in light) — ≈35% of 960×288
+  arrangement one tall violet slab with stepped satellites, bottoms on one line space-6 above the edge, space-4 gutters
+  pattern     chevrons, the literal motif: the » symbol "avanço, fluxo e direção" — one big double chevron cut into the slab in surface, four small chevrons in accent-orange (the one warm touch) on the ground, three in cloud cut over graphite
+  scales      gutters space-4; small chevron pitch space-6; corners radius-md on every block
+-->
+<rect class="violet blk" x="24" y="-12" width="168" height="228" rx="12"/>
+<rect class="blue blk" x="208" y="96" width="144" height="168" rx="12"/>
+<rect class="graphite blk" x="368" y="24" width="128" height="144" rx="12"/>
+<rect class="cloud blk" x="368" y="184" width="72" height="80" rx="12"/>
+<polygon class="cut" points="56,56 76,56 104,92 76,128 56,128 84,92"/>
+<polygon class="cut" points="100,56 120,56 148,92 120,128 100,128 128,92"/>
+<polygon class="orange" points="24,236 31,236 40,248 31,260 24,260 33,248"/>
+<polygon class="orange" points="48,236 55,236 64,248 55,260 48,260 57,248"/>
+<polygon class="orange" points="72,236 79,236 88,248 79,260 72,260 81,248"/>
+<polygon class="orange" points="96,236 103,236 112,248 103,260 96,260 105,248"/>
+<polygon class="mark" points="392,84 399,84 408,96 399,108 392,108 401,96"/>
+<polygon class="mark" points="416,84 423,84 432,96 423,108 416,108 425,96"/>
+<polygon class="mark" points="440,84 447,84 456,96 447,108 440,108 449,96"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">luxxen.ai</h1>
+<p class="tag">IA que cuida da rotina. Você cuida do que importa.</p>
+</div>
+</div>
+</body>
+</html>

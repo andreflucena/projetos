@@ -1,0 +1,15 @@
+{
+  "0": {
+    "hashes": {
+      "evidencias/briefing.md": "74e4418df1d05265106f6bf74bdbca63d453b838fbe721ed83f577ca837fadfa",
+      "evidencias/etapa-0.json": "75bdd1e8f3548006151663931d9c362c608e29791bb6859f7623a134e13b863e"
+    }
+  },
+  "1": {
+    "hashes": {
+      "referencias/referencias.json": "8fe820509b67661ef7c2ddf5a187595efc7f54f2486572b7afa6c980582a961d",
+      "referencias/sintese.md": "28837c449d058bdfdd9cd3b0da8809eb8d72a589275331dc3302d675257f0c0d",
+      "evidencias/etapa-1.json": "9c823531923f0034c765ec2195b517b94187270a61c06720618febc213ccbc6b"
+    }
+  }
+}

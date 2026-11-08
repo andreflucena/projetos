@@ -1,0 +1,44 @@
+<!doctype html><html lang="pt-BR" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Direção A</title>
+<link rel="stylesheet" href="base.css">
+<style>
+body{min-height:100vh;background:
+ radial-gradient(900px 600px at 88% 8%,var(--glow-tint-violet),transparent 70%),
+ radial-gradient(800px 600px at 100% 100%,var(--glow-tint-blue),transparent 70%),var(--surface)}
+.hero{position:relative;padding:var(--space-16) var(--space-12) 0;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);min-height:760px}
+.hero-txt{padding-top:var(--space-12);position:relative;z-index:2}
+h1{font-size:72px;line-height:76px;font-weight:800;letter-spacing:-.03em;max-width:12.5em}
+.sub{margin-top:var(--space-6);font-size:18px;line-height:28px;color:var(--ink-muted);max-width:30em}
+.cta{margin-top:var(--space-8);display:flex;gap:var(--space-3);flex-wrap:wrap}
+.lx-btn{height:48px}
+.note{margin-top:var(--space-6);font-size:13px;line-height:18px;font-weight:500;color:var(--ink-muted)}
+.art{position:relative}
+.art svg{position:absolute;inset:0;width:100%;height:100%}
+@media (max-width:760px){
+ .hero{grid-template-columns:1fr;padding:var(--space-6) var(--space-4) 0;min-height:0}
+ .hero-txt{padding-top:var(--space-4)}
+ h1{font-size:40px;line-height:42px}
+ .sub{font-size:16px;line-height:24px}
+ .art{height:220px;margin-top:var(--space-6)}
+ .cta .lx-btn{width:100%;justify-content:center}
+}
+</style></head><body>
+<header class="nav"><img src="../../marca/Logos/luxxen-logo-dark-bg.svg" alt="luxxen.ai"><nav class="nav-links"><a href="#">Como funciona</a><a href="#">Perguntas</a><a class="lx-btn lx-btn-secondary lx-btn-sm" href="#">Falar com a luxxen.ai</a></nav></header>
+<main class="hero">
+ <div class="hero-txt">
+  <h1>Agenda, CRM e confirmações no <span class="grad">mesmo fluxo.</span></h1>
+  <p class="sub">O AgendaPrime™ organiza as avaliações da sua clínica de odontologia estética, do primeiro contato ao comparecimento.</p>
+  <div class="cta"><a class="lx-btn lx-btn-primary" href="#">Falar com a luxxen.ai <span>»</span></a><a class="lx-btn lx-btn-secondary" href="#">Ver como funciona</a></div>
+  <p class="note">IA que cuida da rotina. Você cuida do que importa.</p>
+ </div>
+ <div class="art" aria-hidden="true">
+  <svg viewBox="0 0 640 700" preserveAspectRatio="xMaxYMid meet" fill="none">
+   <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs>
+   <path d="M-40 520 C 120 480, 220 300, 420 260 S 600 120, 700 40" stroke="url(#g)" stroke-width="2" opacity=".9"/>
+   <path d="M-40 560 C 140 520, 250 360, 440 320 S 620 190, 700 110" stroke="url(#g)" stroke-width="1.5" opacity=".55"/>
+   <path d="M-40 600 C 160 560, 280 420, 460 380 S 640 260, 700 190" stroke="url(#g)" stroke-width="1" opacity=".3"/>
+   <path d="M330 150 L470 350 L330 550 L400 550 L540 350 L400 150Z" fill="#7c3aed" opacity=".14"/>
+   <path d="M410 150 L550 350 L410 550 L480 550 L620 350 L480 150Z" fill="#7c3aed" opacity=".28"/>
+   <path d="M490 150 L630 350 L490 550 L560 550 L700 350 L560 150Z" fill="#ff6b1a" opacity=".95"/>
+  </svg>
+ </div>
+</main></body></html>
